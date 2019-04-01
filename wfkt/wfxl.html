@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>微风心理</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/css1.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script  src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	
+	<style>
+	*{margin:0;
+	  padding:0;
+
+	}
+	body{height:auto;
+	}
+	a{
+	text-decoration:none;
+	color:#666;
+	}
+	#box{
+	width: 170px;
+	height: 180px;
+	background-color: #6CAFD6;
+	position: fixed;
+	right: 0;
+	top: 180px;
+	z-index: 1500px;
+	cursor: pointer;
+	}
+	#online{
+	width:50px;
+	height:45px;
+	background:url(img/icon.png)no-repeat;
+	top:180px;
+	right:170px;
+	position:fixed;
+	z-index:1500px;
+	cursor:pointer;
+
+	}
+	.om{
+	width: 100%;
+	height: 40px;
+	line-height: 45px;
+	background-color: #FE8182;
+	font-size: 18px;
+	position: relative;
+	text-indent: 22px;
+	}
+
+	.wap{
+	 text-align:center;
+	 margin-top:5px;
+	 }
+	 a:hover,span:hover{
+	 color:red;
+	 }
+
+	span{font-size:14px;}
+
+	    <style type="text/css">
+        body{
+ 
+            font-family: simhei;
+        }
+        p{
+            color: #ffffff;
+        }
+        div{
+            overflow: hidden;
+        }
+        </style>
+
+	</style>
+
+</head>
+<body ondragstart="return false">
+    <!--导航栏 begin-->
+    <div class="head">
+        <div class="head-nav">
+            <img src="img/标题.jpg"class="head-pic">
+			<div class="head-text"> 微 风 心 理</div>
+            <ul class="head-icon"> <li><a href="../index.html" style="color: #CBC2C5;">首页</a></li>
+				<li><a href="guet_psy/login/login.html" style="color: #CBC2C5;">登录</a></li>
+                <li><a href="#"><i class="glyphicon glyphicon-envelope"> </i></a></li>
+                <li><a href="#"><i class="glyphicon glyphicon-star"> </i></a></li>
+                <li><a href="#"><i class="glyphicon glyphicon-arrow-up"> </i></a></li>
+            </ul>
+
+        </div>
+    </div>
+    <!--导航栏 ending-->
+    <div class="head-img" id="1">
+        <div class="table">
+            <div class="center">微	风	心	理</div>
+        </div>
+    </div>
+<div class="main">
+    <section class="wp">
+            <div class="notice">
+                <h2>微风心理简介</h2>
+                <div class="introduce">
+					心理健康教育中心成立于2007年，挂靠学生工作部（处），在学校心理健康教育工作领导小组的领导下开展工作，
+					是专门为全校学生提供心理健康教育和辅导的服务机构。2014年，被评为广西高校大学生心理健康教育与咨询示范中心。
+					2015年，荣获全国“2010-2015年度大学生心理健康教育优秀机构”称号。
+
+                </div>
+            </div>
+        <div id="wrapper">
+            <div id="slider-wrap">
+                <ul id="slider">
+                    <li>
+                        <div>
+                            <a href="#"><img src="img/yande.re%20385816%20kupe%20landscape.jpg"></a>
+                            <span><a href="#"><p>随便打点东西测试一下</p></a></span>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <a href="#"><img src="img/yande.re%20427735%20sample%20landscape%20pochi_(poti1990)%20signed.jpg"></a>
+                            <span><a href="#"><p>随便打点东西测试一下</p></a></span>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <a href="#"><img src="img/yande.re%20424109%20sample%20landscape%20niko_p.jpg"></a>
+                            <span><a href="#"><p>随便打点东西测试一下</p></a></span>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <a href="#"><img src="img/yande.re%20427735%20sample%20landscape%20pochi_(poti1990)%20signed.jpg"></a>
+                            <span><a href="#"><p>随便打点东西测试一下G20峰会上，习近平提到这两个10周年启示了什么 习</p></a></span>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <a href="#"><img src="img/yande.re%20385816%20kupe%20landscape.jpg"></a>
+                            <span><a href="#"><p>随便打点东西测试一下</p></a></span>
+                        </div>
+                    </li>
+
+
+                </ul>
+
+                <!--controls-->
+                <div class="btns" id="next"><i class="glyphicon glyphicon-chevron-right"></i></div>
+                <div class="btns" id="previous"><i class="glyphicon glyphicon-chevron-left"></i></div>
+                <div id="counter"></div>
+
+                <div id="pagination-wrap">
+                    <ul>
+                    </ul>
+                </div>
+                <!--controls-->
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slide.js"></script>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script>
+	$(function(){
+   $(".video-item2").hover(function(){
+      $(".describe",this).stop().animate({top:"100px"},{queue:false,duration:160});
+	  $(".describe",this).css("background-color","#000000");
+	  $(".describe .span_mr_txt",this).attr("class","span_font");
+   },function(){
+      $(".describe",this).stop().animate({top:"118px"},{queue:false,duration:160});
+	  $(".describe",this).css("background-color","#ffffff");
+	  $(".describe .span_font",this).attr("class","span_mr_txt");
+   })
+	})
+	</script>
+
+
+    <section class="wp">
+
+        <div class="blk">
+            <img src="img/icon.png" alt="">
+            <h2 class="in-blk">心理行为训练</h2>
+        </div>
+        <div class="wf-left">
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">穿越电网</p></div>
+            <img src="img/002.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">圈圈为何物</p></div>
+                <img src="img/004.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">云梯</p></div>
+                <img src="img/001.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">同舟共济</p></div>
+                <img src="img/003.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">梅花桩</p></div>
+                <img src="img/005.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">信任背摔</p></div>
+            <img src="img/006.jpg" alt=""></a></figure>
+
+
+        </div>
+        
+        <div class="wf-right1">
+           <div class="wf-right1-text">
+               心理行为训练是大学生心理科学协会的特色项目之一。是一种磨练人的意志的训练方式。通过挑战一些训练项目，
+			   使受训练的团队或集体经过一段时间的培训后，激发潜能，增强团队之间的信任和团队意识，提高团队的凝聚力。
+			   心理行为训练分为很多训练项目。如：爱的环绕、穿越电网、信任背摔、雷区取水。
+
+           </div>
+        </div>
+    </section>
+
+    <section class="wp">
+        <div class="blk">
+            <img src="img/icon.png" alt="">
+
+            <h2 class="in-blk">女生工作服务站</h2> 
+        </div>
+        <div class="wf-left">
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">公寓瑜伽室</p></div>
+                <img src="img/007.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">瑜伽美照</p></div>
+                <img src="img/008.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">许愿墙</p></div>
+                <img src="img/009.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">宣泄墙</p></div>
+                <img src="img/0010.jpg" alt=""></a></figure>
+           
+        </div>
+        <div class="wf-right2">
+            <div class="wf-right2-text">
+                为促进女大学生的身心健康，推进女大学生心理健康教育服务便捷化、生活化的有益探索，
+				微风心理在女生公寓开展了“心理健康教育服务进大学生公寓”特色项目
+
+            </div>
+        </div>
+		     <div class="blk">
+            <img src="img/icon.png" alt="">
+            <h2 class="in-blk">男生公寓服务站&D区心理行为训练室</h2>
+           
+        </div>
+        <div class="wf-left">
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont"></p></div>
+            <img src="img/0011.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont"></p></div>
+                <img src="img/012.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont"></p></div>
+                <img src="img/013.jpg" alt=""></a></figure>
+		  <figure class="video-item2"><a href="#"><div class="describe"><p class="cont"></p></div>
+            <img src="img/014.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont"></p></div>
+                <img src="img/015.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont"></p></div>
+                <img src="img/016.jpg" alt=""></a></figure>
+			 <figure class="video-item2"><a href="#"><div class="describe"><p class="cont"></p></div>
+                <img src="img/017.jpg" alt=""></a></figure>
+
+        </div>
+		
+		        <div class="wf-right3">
+		   <div class="wf-right3-text">
+		       心理行为训练是大学生心理科学协会的特色项目之一，是一种磨练人的意志的训练方式，通过挑战一些训练项目，
+			   激发个人潜能，提高团队的凝聚力。D区训练室是用于开展心理行为训练的主要场地。这里有众多的训练器材，可以开展大部分训练项目。
+
+		   </div>
+		</div>
+    </section>
+</div>
+	<!-- 返回顶部滑块 -->
+<div id="online"><a href="#" title="咨询"></a></div>
+<div id="box">
+	<div class="om">微信扫码关注</div>
+	<div class="om-box">
+
+	<div class="wap col-lg-10 col-lg-offset-1 col-md-offset-1 col-md-10"><img src="img/gongzhonghao.jpg"><br/><spen>微信公众号</spen></div>
+
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jQuery.js"></script>
+<script type="text/javascript">
+$(function() {
+	var flag=1;
+    $("#online").click(function(){
+	
+		if (flag == 1){
+			$('#box').animate({right:-175}, 300);
+			$(this).animate({right:'-5px'},300);
+			$(this).css('background-position','-50px 0');
+			 flag=0;
+		} else {
+			$('#box').animate({right:0}, 300);
+			$(this).animate({right:'175px'},300);
+			$(this).css('background-position','0px 0');
+			 flag=1;
+		}
+	});
+});
+</script>
+
+
+<div class="footer">
+    <div class="wp">
+        <h2>友情链接</h2>
+        <ul class="foot-nav">
+            <li><a href="#">广西大学生在线</a></li>
+            <li><a href="#">易班研究发展中心</a></li>
+            <li><a href="#">广西思政教育平台</a></li>
+        </ul>
+    </div>
+</div>
+
+
+
+</body>
+</html>
