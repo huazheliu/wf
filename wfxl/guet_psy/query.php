@@ -102,7 +102,6 @@
 				   <th>QQ</th>
                    <th>学号</th>
 				   <th>学院</th>
-				   <th>学校</th>
 				   <th>生源地</th>
                    <th>联系方式</th>
 				   <th>紧急联络人电话</th>
@@ -122,7 +121,7 @@
                </tr>
             <?php
 
-//                $conn=mysqli_connect("localhost","root","root","guet_psy");
+//                $conn=mysqli_connect("39.108.50.108","root","535155","guet_psy");
 //
 //                if ($conn->connect_error) {
 //                    die("Connection failed: " . $conn->connect_error);
@@ -146,7 +145,6 @@
 					echo "<td>{$value->qq}</td>";
                     echo "<td>{$value->num}</td>";
 					echo "<td>{$value->colloge}</td>";
-					echo "<td>{$value->school}</td>";
 					echo "<td>{$value->address}</td>";
                     echo "<td>{$value->consn}</td>";
 					echo "<td>{$value->emconsn}</td>";

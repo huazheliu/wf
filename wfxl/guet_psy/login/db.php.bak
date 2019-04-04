@@ -4,7 +4,7 @@ header("Content-type:text/html;charset=utf-8");
 
 $dbName = 'guet_psy';
 
-$host = '127.0.0.1';
+$host = 'localhsot';
 
 $user = 'root';
 

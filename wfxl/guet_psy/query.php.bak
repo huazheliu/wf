@@ -63,7 +63,7 @@
 
         function allNews()
         {
-            $coon = mysqli_connect("localhost", "root","root");
+            $coon = mysqli_connect("localhsot", "root","root");
             mysqli_select_db($coon, "guet_psy");
             mysqli_set_charset($coon, "utf8");
             $rs = "select count(*) num from form"; //用以显示出总页数
@@ -121,7 +121,7 @@
                </tr>
             <?php
 
-//                $conn=mysqli_connect("localhost","root","root","guet_psy");
+//                $conn=mysqli_connect("39.108.50.108","root","535155","guet_psy");
 //
 //                if ($conn->connect_error) {
 //                    die("Connection failed: " . $conn->connect_error);

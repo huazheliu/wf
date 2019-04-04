@@ -3,7 +3,7 @@ header("Content-type:text/html;charset=utf-8");
 $keywords=isset($_GET['keywords'])?trim($_GET['keywords']):' ';
 echo "查询的关键字为：".$keywords;
 
-$conn=mysql_connect("localhost","root","root") or die("数据库连接失败");
+$conn=mysql_connect("localhsot","root","root") or die("数据库连接失败");
 mysql_select_db("guet_psy",$conn);
 mysql_query("set names 'utf8'");
 
@@ -65,7 +65,6 @@ if(!empty($keywords)&&$rs){
             <th>QQ</th>
             <th>学号</th>
             <th>学院</th>
-            <th>学校</th>
             <th>生源地</th>
             <th>联系方式</th>
             <th>紧急联络人电话</th>
@@ -98,7 +97,6 @@ if(!empty($keywords)&&$rs){
             echo '<td>'.$value['qq'].'</td>';
             echo '<td>'.$value['num'].'</td>';
             echo '<td>'.$value['colloge'].'</td>';
-            echo '<td>'.$value['school'].'</td>';
             echo '<td>'.$value['address'].'</td>';
             echo '<td>'.$value['consn'].'</td>';
             echo '<td>'.$value['emconsn'].'</td>';

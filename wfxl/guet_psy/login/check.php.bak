@@ -8,11 +8,11 @@ session_start();
 
 $dbName = 'guet_psy';
 
-$host = '127.0.0.1';
+$host = 'localhsot';
 
 $user = 'root';
 
-$password = 'root';
+$password = 'localhsot';
 
 
 

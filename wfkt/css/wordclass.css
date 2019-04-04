@@ -1,0 +1,133 @@
+a, a:hover ,a:focus{
+    color: #333;
+    text-decoration: none;
+}
+
+.main{
+    width:1210px;
+    height:500px;
+    margin:0 auto;
+}
+.content{
+    width: 70%;
+    height:450px;
+    margin:auto;
+    position:relative;
+    background-color:azure;
+    float:left;
+    padding-bottom:50px;
+}
+.left{
+    width:15%;
+    height:450px;
+    float:left;
+    margin-left: -10% ;
+}
+
+.left>img{
+    margin-left:60%;
+}
+.left>ul{
+    margin-left:60%;
+    position:relative;
+}
+.left li{
+    height:60px;
+    color:red;
+}
+
+
+.right{
+    width:15%;
+    height:450px;
+    float:left;
+}
+
+.right>img{
+    margin-left:3%;
+    margin-top:10%;
+}
+
+.content-left{
+    width:70%;
+    height:450px;
+    float:left;
+}
+
+.left>img{
+    margin-bottom:8px;
+    margin-left:52%;
+}
+
+.content-left-ul1{
+    float:left;
+    margin-top:5%;
+    margin-left:15%
+}
+li{
+    color:black;
+    font-style: normal;
+    height:37px;
+}
+
+.content-left-ul2{
+    float:left;
+    margin-top:5%;
+    margin-left:10%;
+}
+
+.content-right{
+    width:30%;
+    height:450px;
+    float:left;
+}
+
+.content-right-up{
+    margin-left:30%;
+    height:50px;
+    width:400px;
+    display: inline-block;
+
+
+}
+#logo{
+    margin:8px 8px 0 0;
+    display: inline-block;
+    vertical-align: top;
+}
+form{
+    background: white;
+    display: inline-block;
+}
+#search-input{
+    border:0;
+    float: left;
+    outline:none;
+    width:200px;
+    height: 50px;
+    line-height: 50px;
+    background-color: azure;
+}
+#search-button{
+    border:0;
+    margin-top:8px;
+    margin-left:0;
+    width:40px;
+    height: 50px;
+    float: left;
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.content-right-middle>p{
+    margin-top:12%;
+    margin-left:8%;
+}
+
+.content-right-ul{
+    margin-top:5%;
+    margin-left:8%;
+}
+
+

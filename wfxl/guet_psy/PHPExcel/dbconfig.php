@@ -1,6 +1,6 @@
 <?php
     $phpexcel=array(
-        'host'=>"127.0.0.1",
+        'host'=>"localhost",
         'username'=>"root",
         'password'=>'root',
         'database'=>"guet_psy",

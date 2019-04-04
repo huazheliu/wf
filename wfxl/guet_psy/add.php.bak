@@ -7,7 +7,7 @@
  $num=$_POST['num'];
  $qq=$_POST['qq'];
  $colloge=$_POST['colloge'];
- $school=$_POST['school'];
+ //$school=$_POST['school'];
  $consn=$_POST['consn'];
  $emconsn=$_POST['emconsn'];
  $degree=$_POST['degree'];
@@ -30,7 +30,7 @@ if(!$name&&!$sex&&!$num&&!$consn&&!$degree&&!$evaluation){
 	echo 'success!';
  }
 
-$conn=mysqli_connect("localhost","root","root","guet_psy"); 
+$conn=mysqli_connect("locaLhsot","root","root","guet_psy"); 
 if (!$conn)
   {
   die('Could not connect: ' . mysqli_connect_error());
@@ -39,8 +39,8 @@ else{
     echo '数据库连接成功！';
 }
 
-$sql = "INSERT INTO form (name,sex,age,num,qq,colloge,school,consn,emconsn,degree,evaluation,address,date,medium,self,consult,meidicinal,want,avoids,place,aim,time,times) 
-VALUES ('$name','$sex','$age','$num','$qq','$colloge','$school','$consn','$emconsn','$degree','$evaluation','$address','$date','$medium','$self','$consult','$meidicinal','$want','$avoids','$place','$aim','$time','$times')";
+$sql = "INSERT INTO form (name,sex,age,num,qq,colloge,consn,emconsn,degree,evaluation,address,date,medium,self,consult,meidicinal,want,avoids,place,aim,time,times) 
+VALUES ('$name','$sex','$age','$num','$qq','$colloge','$consn','$emconsn','$degree','$evaluation','$address','$date','$medium','$self','$consult','$meidicinal','$want','$avoids','$place','$aim','$time','$times')";
 
 print_r($sql);
 
