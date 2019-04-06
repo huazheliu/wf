@@ -1,0 +1,1 @@
+<li> [field:pubdate function="GetDateTimeMK(@me)"/]</li>

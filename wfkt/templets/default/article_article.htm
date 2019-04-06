@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图文教程</title>
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/css.css">
+    <script  src="{dede:global.cfg_templets_skin/}/js/jquery.js"></script>
+    <script src="{dede:global.cfg_templets_skin/}/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/medile.css">
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/wordclass2.css">
+</head>
+<body>
+<!--导航栏 begin-->
+{dede:include file="head.htm" /}
+
+<h4 class="latest-text w3_latest_text">图文教程</h4>
+<hr>
+<!--导航栏 ending-->
+
+<div class="container">
+    <div class="title">{dede:field name="title"/ }</div>
+    <br>
+    文章来源: {dede:field name='source'/}&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp作者:{dede:field name='writer'/}
+    <div class="content">{dede:field name='body'/}</div>
+</div>
+
+<div class="footer">
+    <div class="wp">
+        <h2>友情链接</h2>
+        <ul class="foot-nav">
+            <li><a href="http://gxdxszx.cloudsen.cn/">广西大学生在线</a></li>
+            <li><a href="http://www.yiban.cn/">易班研究发展中心</a></li>
+            <li><a href="http://jcyk.myclub2.com/">广西思政教育平台</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

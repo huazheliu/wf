@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>微风课堂</title>
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/css.css">
+    <link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/font-awesome.css">
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/style.css">
+    <script  src="{dede:global.cfg_templets_skin/}/js/jquery.js"></script>
+    <script src="{dede:global.cfg_templets_skin/}/js/bootstrap.min.js"></script>
+</head>
+<body ondragstart="return false">
+    <!--导航栏 begin-->
+    {dede:include file="head.htm" /}
+<div class="main">
+    <section class="wp">
+            <div class="notice">
+                <h2>微风资讯</h2>
+                <ul>
+                    {dede:arclist limit="8" typeid="1" orderby="id" orderway="desc"}
+                        <li>
+                            <a href="[field:arcurl/]" target="_blank">·[field:title/]</a>
+                        </li>
+                    {/dede:arclist}
+                </ul>
+            </div>
+        <div id="wrapper">
+            <div id="slider-wrap">
+                <ul id="slider">
+                    <li>
+                        <div>
+                            <a href="#"><img src="{dede:global.cfg_templets_skin/}/img/yande.re%20385816%20kupe%20landscape.jpg" alt=""></a>
+                            <span><a href="#"><p>随便打点东西测试一下</p></a></span>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <a href="#"><img src="{dede:global.cfg_templets_skin/}/img/yande.re%20427735%20sample%20landscape%20pochi_(poti1990)%20signed.jpg" alt=""></a>
+                            <span><a href="#"><p>随便打点东西测试一下</p></a></span>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <a href="#"><img src="{dede:global.cfg_templets_skin/}/img/yande.re%20424109%20sample%20landscape%20niko_p.jpg" alt=""></a>
+                            <span><a href="#"><p>随便打点东西测试一下</p></a></span>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <a href="#"><img src="{dede:global.cfg_templets_skin/}/img/yande.re%20427735%20sample%20landscape%20pochi_(poti1990)%20signed.jpg" alt=""></a>
+                            <span><a href="#"><p>随便打点东西测试一下G20峰会上，习近平提到这两个10周年启示了什么 习</p></a></span>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <a href="#"><img src="{dede:global.cfg_templets_skin/}/img/yande.re%20385816%20kupe%20landscape.jpg" alt=""></a>
+                            <span><a href="#"><p>随便打点东西测试一下</p></a></span>
+                        </div>
+                    </li>
+
+
+                </ul>
+
+                <!--controls-->
+                <div class="btns" id="next"><i class="glyphicon glyphicon-chevron-right"></i></div>
+                <div class="btns" id="previous"><i class="glyphicon glyphicon-chevron-left"></i></div>
+                <div id="counter"></div>
+
+                <div id="pagination-wrap">
+                    <ul>
+                    </ul>
+                </div>
+                <!--controls-->
+
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slide.js"></script>
+
+    <section class="wp">
+
+        <div class="blk">
+            <img src="img/icon.png" alt="">
+            <h2 class="in-blk">微风小视频</h2> <p class="in-blk more"><a href="#">more>></a></p>
+        </div>
+        <div class="wf-left">
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">但是需要一个触发条件，，比如是输入完后执行，让它跳到最左，或者是输入回车，或者选中input。。
+            但是都不实用，，因为输入的时候，每输入一个字，就会跳到左边，这样完全没办法输入了。用回车来触发更加不实用了，</p></div>
+            <img src="{dede:global.cfg_templets_skin/}/img/yande.re%20427735%20sample%20landscape%20pochi_(poti1990)%20signed.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">但是需要一个触发条件，，比如是输入完后执行，让它跳到最左，或者是输入回车，或者选中input。。
+                但是都不实用，，因为输入的时候，每输入一个字，就会跳到左边，这样完全没办法输入了。用回车来触发更加不实用了，</p></div>
+                <img src="{dede:global.cfg_templets_skin/}/img/yande.re%20385816%20kupe%20landscape.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">但是需要一个触发条件，，比如是输入完后执行，让它跳到最左，或者是输入回车，或者选中input。。
+                但是都不实用，，因为输入的时候，每输入一个字，就会跳到左边，这样完全没办法输入了。用回车来触发更加不实用了，</p></div>
+                <img src="{dede:global.cfg_templets_skin/}/img/yande.re%20440521%20higandgk%20landscape.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">但是需要一个触发条件，，比如是输入完后执行，让它跳到最左，或者是输入回车，或者选中input。。
+                但是都不实用，，因为输入的时候，每输入一个字，就会跳到左边，这样完全没办法输入了。用回车来触发更加不实用了，</p></div>
+                <img src="{dede:global.cfg_templets_skin/}/img/yande.re%20424097%20sample%20landscape%20niko_p%20signed%20thighhighs%20umbrella.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">但是需要一个触发条件，，比如是输入完后执行，让它跳到最左，或者是输入回车，或者选中input。。
+                但是都不实用，，因为输入的时候，每输入一个字，就会跳到左边，这样完全没办法输入了。用回车来触发更加不实用了，</p></div>
+                <img src="{dede:global.cfg_templets_skin/}/img/yande.re%20427735%20sample%20landscape%20pochi_(poti1990)%20signed.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">但是需要一个触发条件，，比如是输入完后执行，让它跳到最左，或者是输入回车，或者选中input。。
+                但是都不实用，，因为输入的时候，每输入一个字，就会跳到左边，这样完全没办法输入了。用回车来触发更加不实用了，</p></div>
+                <img src="{dede:global.cfg_templets_skin/}/img/yande.re%20424097%20sample%20landscape%20niko_p%20signed%20thighhighs%20umbrella.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">但是需要一个触发条件，，比如是输入完后执行，让它跳到最左，或者是输入回车，或者选中input。。
+                但是都不实用，，因为输入的时候，每输入一个字，就会跳到左边，这样完全没办法输入了。用回车来触发更加不实用了，</p></div>
+                <img src="{dede:global.cfg_templets_skin/}/img/yande.re%20385816%20kupe%20landscape.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">但是需要一个触发条件，，比如是输入完后执行，让它跳到最左，或者是输入回车，或者选中input。。
+                但是都不实用，，因为输入的时候，每输入一个字，就会跳到左边，这样完全没办法输入了。用回车来触发更加不实用了，</p></div>
+                <img src="{dede:global.cfg_templets_skin/}/img/yande.re%20427735%20sample%20landscape%20pochi_(poti1990)%20signed.jpg" alt=""></a></figure>
+        </div>
+        <div class="wf-right">
+           <div>
+               <a href="#"><img src="{dede:global.cfg_templets_skin/}/img/890fd191513b21fa2b2d225e25e0df68.jpg" alt=""></a>
+           </div>
+        </div>
+    </section>
+
+    <section class="wp">
+        <div class="blk">
+            <img src="{dede:global.cfg_templets_skin/}/img/icon.png" alt="">
+
+            <h2 class="in-blk">微风映像</h2> <p class="in-blk more">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#">more>></a></p>
+        </div>
+        <div class="wf-left">
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">但是需要一个触发条件，，比如是输入完后执行，让它跳到最左，或者是输入回车，或者选中input。。
+                但是都不实用，，因为输入的时候，每输入一个字，就会跳到左边，这样完全没办法输入了。用回车来触发更加不实用了，</p></div>
+                <img src="{dede:global.cfg_templets_skin/}/img/yande.re%20427735%20sample%20landscape%20pochi_(poti1990)%20signed.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">但是需要一个触发条件，，比如是输入完后执行，让它跳到最左，或者是输入回车，或者选中input。。
+                但是都不实用，，因为输入的时候，每输入一个字，就会跳到左边，这样完全没办法输入了。用回车来触发更加不实用了，</p></div>
+                <img src="{dede:global.cfg_templets_skin/}/img/yande.re%20385816%20kupe%20landscape.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">但是需要一个触发条件，，比如是输入完后执行，让它跳到最左，或者是输入回车，或者选中input。。
+                但是都不实用，，因为输入的时候，每输入一个字，就会跳到左边，这样完全没办法输入了。用回车来触发更加不实用了，</p></div>
+                <img src="{dede:global.cfg_templets_skin/}/img/yande.re%20440521%20higandgk%20landscape.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">但是需要一个触发条件，，比如是输入完后执行，让它跳到最左，或者是输入回车，或者选中input。。
+                但是都不实用，，因为输入的时候，每输入一个字，就会跳到左边，这样完全没办法输入了。用回车来触发更加不实用了，</p></div>
+                <img src="{dede:global.cfg_templets_skin/}/img/yande.re%20424097%20sample%20landscape%20niko_p%20signed%20thighhighs%20umbrella.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">但是需要一个触发条件，，比如是输入完后执行，让它跳到最左，或者是输入回车，或者选中input。。
+                但是都不实用，，因为输入的时候，每输入一个字，就会跳到左边，这样完全没办法输入了。用回车来触发更加不实用了，</p></div>
+                <img src="{dede:global.cfg_templets_skin/}/img/yande.re%20427735%20sample%20landscape%20pochi_(poti1990)%20signed.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">但是需要一个触发条件，，比如是输入完后执行，让它跳到最左，或者是输入回车，或者选中input。。
+                但是都不实用，，因为输入的时候，每输入一个字，就会跳到左边，这样完全没办法输入了。用回车来触发更加不实用了，</p></div>
+                <img src="{dede:global.cfg_templets_skin/}/img/yande.re%20424097%20sample%20landscape%20niko_p%20signed%20thighhighs%20umbrella.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">但是需要一个触发条件，，比如是输入完后执行，让它跳到最左，或者是输入回车，或者选中input。。
+                但是都不实用，，因为输入的时候，每输入一个字，就会跳到左边，这样完全没办法输入了。用回车来触发更加不实用了，</p></div>
+                <img src="{dede:global.cfg_templets_skin/}/img/yande.re%20385816%20kupe%20landscape.jpg" alt=""></a></figure>
+            <figure class="video-item2"><a href="#"><div class="describe"><p class="cont">但是需要一个触发条件，，比如是输入完后执行，让它跳到最左，或者是输入回车，或者选中input。。
+                但是都不实用，，因为输入的时候，每输入一个字，就会跳到左边，这样完全没办法输入了。用回车来触发更加不实用了，</p></div>
+                <img src="{dede:global.cfg_templets_skin/}/img/yande.re%20427735%20sample%20landscape%20pochi_(poti1990)%20signed.jpg" alt=""></a></figure>
+        </div>
+        <div class="wf-right">
+            <div>
+                <a href="#"><img src="{dede:global.cfg_templets_skin/}/img/890fd191513b21fa2b2d225e25e0df68.jpg" alt=""></a>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
+<div class="footer">
+    <div class="wp">
+        <h2>友情链接</h2>
+        <ul class="foot-nav">
+            <li><a href="http://gxdxszx.cloudsen.cn/">广西大学生在线</a></li>
+            <li><a href="http://www.yiban.cn/">易班研究发展中心</a></li>
+            <li><a href="http://jcyk.myclub2.com/">广西思政教育平台</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
