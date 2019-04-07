@@ -1,0 +1,124 @@
+﻿<script type="text/javascript" src="{dede:global.cfg_basehost/}/ckplayer/offlights.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_basehost/}/ckplayer/ckplayer.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_basehost/}/plus/ckplayer_common.php"></script>
+{dede:field.video_address runphp='yes'}  if(@me == ''){@me = ''; } else{  @me = '<div id="video" style="position:relative;z-index: 100;width:600px;height:400px; margin:0 auto;"><div id="a1"></div></div>'; }
+{/dede:field.video_address}
+<script type="text/javascript">
+    var newcpt_share='{dede:global.cfg_basehost/}/ckplayer/share.xml';
+	var newcontrol_rel='related.swf,{dede:global.cfg_basehost/}/plus/ckplayer_related.php,0';
+
+function Extension(str){//判断开始，下面是调用视频
+        var ext='';
+        if(str){
+                var file=str.toLowerCase();        
+                var filearr=file.split('.');
+                var exten=filearr[filearr.length-1];
+                if(exten=='flv' || exten=='f4v' || exten=='mp4' || exten=='rmov'){
+                        ext='video';        
+                }
+        }
+        return ext;
+}
+    var _f='';//定义调用视频的f值
+	var _a='';//同上，定义a值
+	var _s=0;//同上，定义s值
+	var _flv='{dede:field name="video_address"/}'
+	if(Extension(_flv)){//如果是普通视频的话就直接调用
+        _f=_flv;
+        _s=0;
+	}
+	else{//如果不是的话就使用另一种调用方式
+        _f='{dede:global.cfg_basehost/}/ckplayer/video.php?url=[$pat]';
+        _a=_flv;
+        _s=2;
+	}
+//判断结束，下面是调用视频，全部由上面的变量传值
+	var flashvars={
+		f:_f,a:_a,s:_s,c:'0',x:'',y:'',g:'',j:'',
+		k:'{dede:field name="pa_time"/}',
+		n:'{dede:field name="pa_text"/}',
+		l:newflashvars['l'],
+		r:newflashvars['r'],
+		t:newflashvars['t'],
+		d:newflashvars['d'],
+		u:newflashvars['u'],
+		e:newflashvars['e'],
+		p:newflashvars['p'],
+		v:newflashvars['v'],
+		z:newflashvars['z'],
+		my_title:'{dede:field.title/}',
+		my_pic:'{dede:global.cfg_basehost/}{dede:field.litpic/}',
+		my_url:encodeURIComponent(window.location.href)
+		};
+	var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always'};
+	var attributes={id:'ckplayer_a1',name:'ckplayer_a1',menu:'false'};
+	swfobject.embedSWF('{dede:global.cfg_basehost/}/ckplayer/ckplayer.swf', 'a1', '600', '400', '10.0.0','{dede:global.cfg_basehost/}/ckplayer/expressInstall.swf', flashvars, params, attributes);
+	var newvideo=flashvars['f'];
+	var video=new Object();
+	video[newvideo]='video/mp4';
+	var support=['iPad','iPhone','ios','android+false','msie10+false'];
+	CKobject.embedHTML5('video','ckplayer_a1',600,400,video,flashvars,support);
+	function playerstop(){
+		alert('播放完成');	
+	}
+	var _nn=0;
+	var watt=false;
+	function ckmarqueeadv(){
+	return '{a href="' + newflashvars['madurl'] + '"' + 'target="_blank"' + '}' + '{font color="#FFFFFF" size="12"}'+ newflashvars['mad'] + '{/font}' + '{/a}';
+	}
+	function ckplayer_status(str){
+		_nn+=1;
+		if(_nn>200){
+			_nn=0;
+			document.getElementById('statusvalue').value='';
+		}
+		document.getElementById('statusvalue').value=str+'\n'+document.getElementById('statusvalue').value;
+		if(str=='video:play'){
+			if(!watt){
+				watt=true;
+				setInterval('getstart()',1000);
+			}
+		}
+
+	}
+	function getstart(){
+		var a=swfobject.getObjectById('ckplayer_a1').ckplayer_getstatus();
+		var ss='';
+		for (var k in a){
+			ss+=k+":"+a[k]+'\n';
+		}
+		document.getElementById('obj').innerHTML=ss;
+	}
+	function aboutstr(str,f){//查看str字符里是否有f
+		var about=false;
+		var strarray=new Array();
+		var farray=new Array();
+		farray=f.split(",");
+		if(str){
+			for(var i=0;i<farray.length;i++){
+				strarray=str.split(farray[i]);
+				if(strarray.length>1){
+					about=true;
+					break;
+				}
+			}
+		}
+		return about;
+	}
+	//开关灯
+	var box = new LightBox();
+	function closelights(){//关灯
+		box.Show();
+		CKobject._K_('video').style.width='940px';
+		CKobject._K_('video').style.height='550px';
+		swfobject.getObjectById('ckplayer_a1').width=940;
+		swfobject.getObjectById('ckplayer_a1').height=550;
+	}
+	function openlights(){//开灯
+		box.Close();
+		CKobject._K_('video').style.width='600px';
+		CKobject._K_('video').style.height='400px';
+		swfobject.getObjectById('ckplayer_a1').width=600;
+		swfobject.getObjectById('ckplayer_a1').height=400;
+	}
+  </script>

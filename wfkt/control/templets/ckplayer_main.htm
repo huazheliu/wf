@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $cfg_soft_lang; ?>">
+<title>CKplayer视频播放器使用方法</title>
+<link href="css/base.css" rel="stylesheet" type='text/css'>
+
+</head>
+<body background='images/allbg.gif' leftmargin='8' topmargin='8'>
+<script type="text/javascript"> 
+    function rongqiCopy(){ 
+        var e=document.getElementById("rongqi");//对象是content 
+        e.select(); //选择对象 
+        document.execCommand("Copy"); //执行浏览器复制命令
+		alert("复制成功，请将代码粘贴的相应位置！"); 
+    } 
+</script> 
+<table width="98%" border="0" align="center" cellpadding="3" cellspacing="1" bgcolor="#D6D6D6">
+  <tr>
+    <td height="28" background="images/tbg.gif" style="padding-left:10px;">
+  <div style="float:left">
+  	<b>CKplayer播放器插件安装使用说明</b>
+	</div>
+	<div style="float:right;padding-right:6px;">
+ 	 	[<a><u>dedecms_faq在线交流问答群：217479292</u></a>]
+  	[<a><u>ckplayer官方交流群：3627441</u></a>]
+  </div>
+  </td>
+</tr>
+<tr align="left" bgcolor="#FFFFFF" height="26" onMouseMove="javascript:this.bgColor='#FCFDEE';"onMouseOut="javascript:this.bgColor='#FFFFFF';">
+          <td width="100%" style="text-indent:2em;"><a style="color:#F00;">CKplayer播放器插件使用须知：</a>本插件适用于任何模型，只要给需要使用视频的模型添加字段和标签即可，插入的视频可以是优酷、土豆、56、酷6和乐视中的任意一家网站视频的html地址,也可以是本地.flv/.f4v/.mp4格式的视频地址。ckplayer播放器上面的的任何元素包括logo以及其他图标都可以换成您自己的，皮肤文件存放在网站根目录下面的ckplayer文件夹里的style.zip压缩包里面，只需修改相应的图片及logo即可。当然在<a style="color:#F00; text-decoration:underline;" href="http://www.it736.com/down/list_218_1.html" target="_blank">[ckplayer风格皮肤下载专区]</a>还有许多更好的皮肤可以下载。</td>
+          
+</tr>
+</table>
+<div class="bodytitle" style="margin-top:10px;">
+	<div class="bodytitletxt"><b>插件安装第一步:添加字段</b></div>
+</div>
+<table width="98%" border="0" align="center" cellpadding="3" cellspacing="1" bgcolor="#D6D6D6">
+  <tr align="left" bgcolor="#FFFFFF" height="26" onMouseMove="javascript:this.bgColor='#FCFDEE';"onMouseOut="javascript:this.bgColor='#FFFFFF';">
+    <td width="100%" style="text-indent:2em;">首先在需要使用视频的内容模型里面添加一个自定义字段<a href="mychannel_main.php" target="_blank">【点此添加】</a>，字段名称为“video_address”，表单提示文字为“视频地址”，如图：<br /><br />
+    <img src="images/addzid.jpg" style="border:dotted 1px #CCCCCC; padding:5px; margin-left:20px;" />
+    </td>
+  </tr>
+</table>
+<div class="bodytitle" style="margin-top:10px;">
+	<div class="bodytitletxt"><b>插件安装第二步:修改内容模板</b></div>
+</div>
+<table width="98%" border="0" align="center" cellpadding="3" cellspacing="1" bgcolor="#D6D6D6">
+  <tr align="left" bgcolor="#FFFFFF" height="26" onMouseMove="javascript:this.bgColor='#FCFDEE';"onMouseOut="javascript:this.bgColor='#FFFFFF';">
+    <td width="100%" style="text-indent:2em;">在模板需要显示视频的地方（例如文章模型一般在article_article.htm文件里面的&#123;dede:field name=&#39;body&#39;/&#125;标签前面）插入如下代码：<br /><br />
+    <textarea name="rongqi"  style="width:50%;height:100px; margin-left:20px;" rows="10" id="rongqi">&#123;dede:include filename=&quot;plus/ckplayer.htm&quot;/&#125;</textarea>
+    </td>
+  </tr>
+  <tr align="left" bgcolor="#FFFFFF" height="26" onMouseMove="javascript:this.bgColor='#FCFDEE';"onMouseOut="javascript:this.bgColor='#FFFFFF';">
+    <td width="100%" style="text-indent:2em;">
+  <input type=button value="点击复制代码" onclick="rongqiCopy()">
+    </td>
+  </tr>
+</table>
+<div class="bodytitle" style="margin-top:10px;">
+	<div class="bodytitletxt"><b>插件安装第三步:安装完成发布内容</b></div>
+</div>
+<table width="98%" border="0" align="center" cellpadding="3" cellspacing="1" bgcolor="#D6D6D6">
+  <tr align="left" bgcolor="#FFFFFF" height="26" onMouseMove="javascript:this.bgColor='#FCFDEE';"onMouseOut="javascript:this.bgColor='#FFFFFF';">
+    <td width="100%" style="text-indent:2em;">将第二步的代码插入到文章内容页模板以后，就可以相应的内容模型里面发布文章并且插入视频了，只需将优酷、土豆、56、酷6以及乐视网站视频的html地址粘贴到[网络视频地址]一栏中即可。如下图：
+<br /><br />
+    <img src="images/demo.jpg" style="border:dotted 1px #CCCCCC; padding:5px; margin-left:20px;" />
+    </td>
+  </tr>
+</table>
+</body>
+</html>

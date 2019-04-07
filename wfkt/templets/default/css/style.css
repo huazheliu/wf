@@ -170,6 +170,16 @@
 }
 
 
+.align ul{
+	display: inline-block;
+}
+
+.align ul li{
+	float:left;
+	display: inline-block;
+	margin-left: 30px;
+}
+
 
 
 

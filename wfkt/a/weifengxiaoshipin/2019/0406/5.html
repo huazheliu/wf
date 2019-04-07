@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>视频教程</title>
+    <link rel="stylesheet" href="/wf/wfkt/templets/default/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/wf/wfkt/templets/default/css/css.css">
+    <script  src="/wf/wfkt/templets/default/js/jquery.js"></script>
+    <script src="/wf/wfkt/templets/default/js/bootstrap.min.js"></script>
+    <script language="javascript" type="text/javascript" src="/wf/wfkt/ckplayer/ckplayer/ckplayer.js"></script>
+    <link rel="stylesheet" href="/wf/wfkt/templets/default/css/medile.css">
+    <link rel="stylesheet" href="/wf/wfkt/templets/default/css/wordclass2.css">
+</head>
+<body>
+<!--导航栏 begin-->
+<div class="head">
+    <div class="head-nav">
+        <h1><a href="#"><img src="/wf/wfkt/templets/default/img/无标题.jpg"></a></h1>
+        <ul class="head-title">
+            <li><a href="/wf/wfkt/" target="_self">首页</a></li>
+            
+            <li><a href='/wf/wfkt/a/weifengtuwen/' title="[typename]" ]>微风图文</a></li>
+            
+            <li><a href='/wf/wfkt/a/weifengxiaoshipin/' title="[typename]" ]>微风小视频</a></li>
+            
+            <li><a href='/wf/wfkt/a/weifengyingxiang/' title="[typename]" ]>微风映像</a></li>
+            
+        </ul>
+        <ul class="head-icon">
+            <li><a href="#"><i class="glyphicon glyphicon-envelope"> </i></a></li>
+            <li><a href="#"><i class="glyphicon glyphicon-star"> </i></a></li>
+            <li><a href="#"><i class="glyphicon glyphicon-arrow-up"> </i></a></li>
+        </ul>
+
+    </div>
+</div>
+<!--导航栏 ending-->
+<div class="head-img" id="1">
+    <div class="table">
+        <div class="up"><h2>易</h2><h3>路</h3><h4>同</h4><h3>行</h3></div>
+        <div class="down"><h2>易</h2><h4>路</h4><h3>有</h3><h2>你</h2></div>
+    </div>
+</div>
+
+
+
+
+
+<h4 class="latest-text w3_latest_text">视频教程</h4>
+<!--导航栏 ending-->
+
+<div>
+    连接大屏幕
+    2019-04-07 13:19:52
+    <hr>
+    <!--视频播放器-->
+    <div id="video" style="width: 100%; height: 400px;max-width: 600px;"></div>
+    <script type="text/javascript" src="ckplayer/ckplayer.js" charset="UTF-8"></script>
+    <script type="text/javascript">
+        var videoObject = {
+            container: '#video', //容器的ID或className
+            variable: 'player', //播放函数名称
+            //loop: true, //播放结束是否循环播放
+            autoplay: false,//是否自动播放
+            poster: 'material/poster.jpg', //封面图片
+            preview: { //预览图片
+                file: ['material/mydream_en1800_1010_01.png', 'material/mydream_en1800_1010_02.png'],
+                scale: 2
+            },
+            //flashplayer:true,
+            //live:true,
+            //debug:true,
+            video:[
+                ['http://img.ksbbs.com/asset/Mon_1703/d30e02a5626c066.mp4', 'video/mp4', '中文标清', 0],
+                ['http://img.ksbbs.com/asset/Mon_1703/d0897b4e9ddd9a5.mp4', 'video/mp4', '中文高清', 0],
+                ['http://img.ksbbs.com/asset/Mon_1703/eb048d7839442d0.mp4', 'video/mp4', '英文高清', 0],
+                ['http://img.ksbbs.com/asset/Mon_1703/d30e02a5626c066.mp4', 'video/mp4', '英文超清', 0]
+            ]
+        };
+        var player = new ckplayer(videoObject);
+    </script>
+</div>
+</div>
+
+<div class="footer">
+    <div class="wp">
+        <h2>友情链接</h2>
+        <ul class="foot-nav">
+            <li><a href="http://gxdxszx.cloudsen.cn/">广西大学生在线</a></li>
+            <li><a href="http://www.yiban.cn/">易班研究发展中心</a></li>
+            <li><a href="http://jcyk.myclub2.com/">广西思政教育平台</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

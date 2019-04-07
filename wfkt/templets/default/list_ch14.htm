@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:>
 <head>
     <meta charset="UTF-8">
     <title>微风课堂</title>
     <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/bootstrap.min.css">
     <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/css.css">
+	<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/style.css">
 	<link href="{dede:global.cfg_templets_skin/}/css/medile.css" rel='stylesheet' type='text/css' />
     <script  src="dede:global.cfg_templets_skin/}/js/jquery.js"></script>
     <script src="dede:global.cfg_templets_skin/}/js/bootstrap.min.js"></script>
@@ -12,208 +13,40 @@
 <body ondragstart="return false">
     <!--导航栏 begin-->
 	{dede:include file="head.htm" /}
-<h4 class="latest-text w3_latest_text">微风小视频</h4>
-		<div class="container">
-			<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
-				<ul id="myTab" class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">1</a></li>
-					<li role="presentation"><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="false">2</a></li>
-					<li role="presentation"><a href="#rating" id="rating-tab" role="tab" data-toggle="tab" aria-controls="rating" aria-expanded="true">3</a></li>
-				</ul>
-			  <div id="myTabContent" class="tab-content">
-					<div role="tabpanel" class="tab-pane fade active in" id="home" aria-labelledby="home-tab">
-					  <div class="1">
-							<div class="col-md-2 w3l-movie-gride-agile">
-							<a href="http://xyzliu.cn" class="hvr-shutter-out-horizontal"><img src="{dede:global.cfg_templets_skin/}/img/yande.re 424097 sample landscape niko_p signed thighhighs umbrella.jpg" title="xxx-name" class="img-responsive" alt=" " />
+	<h4 class="latest-text w3_latest_text">微风小视频</h4>
+	<div class="container">
+		<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+			<ul id="myTab" class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">1</a></li>
+				<li role="presentation"><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="false">2</a></li>
+				<li role="presentation"><a href="#rating" id="rating-tab" role="tab" data-toggle="tab" aria-controls="rating" aria-expanded="true">3</a></li>
+			</ul>
+			<div id="myTabContent" class="tab-content">
+				<div role="tabpanel" class="tab-pane fade active in" id="home" aria-labelledby="home-tab">
+					<ul class="col-md-2 w3l-movie-gride-agile">
+						{dede:arclist limit="3" typeid="2" orderby="id" orderway="desc"}
+							<li>
+								<a href="[field:arcurl/]" class="hvr-shutter-out-horizontal">
+									<img src="[field:litpic/]" title="xxx-name" class="img-responsive" alt=" " />
 									<div class="w3l-action-icon"><i class="glyphicon glyphicon-play-circle" aria-hidden="true"></i></div>
 								</a>
 								<div class="wenzi">
 									<div class="w3l-movie-text">
-										<h6><a href="http://xyzliu.cn">轻音乐，请欣赏......</a></h6>
+										<h6><a href="[field:arcurl/]">[field:title/]</a></h6>
 									</div>
 									<div class="mid-2">
-										<p>2018.12.13</p>
+										<p>[field:pubdate function="GetDateTimeMK(@me)"/]</p>
 									</div>
 								</div>
-								<div class="ribben">
-								  <p>NEW</p>
-								</div>
-								
-							
-							</div>
-						    <div class="col-md-2 w3l-movie-gride-agile">
-								<a href="xxx.html" class="hvr-shutter-out-horizontal"><img src="{dede:global.cfg_templets_skin/}/img/yande.re 424097 sample landscape niko_p signed thighhighs umbrella.jpg" title="xxx-name" class="img-responsive" alt=" " />
-									<div class="w3l-action-icon"><i class="glyphicon glyphicon-play-circle" aria-hidden="true"></i></div>
-								</a>
-								<div class="wenzi">
-									<div class="w3l-movie-text">
-										<h6><a href="xxx.html">xxxxxxxxxxxx(描述)</a></h6>							
-									</div>
-									<div class="mid-2">
-										<p>（日期）2018</p>
-									</div>
-								</div>
-								<div class="ribben">
-								  <p>NEW</p>
-								</div>							
-							</div>
-					    <div class="col-md-2 w3l-movie-gride-agile">
-								<a href="xxx.html" class="hvr-shutter-out-horizontal"><img src="{dede:global.cfg_templets_skin/}/img/yande.re 424097 sample landscape niko_p signed thighhighs umbrella.jpg" title="xxx-name" class="img-responsive" alt=" " />
-									<div class="w3l-action-icon"><i class="glyphicon glyphicon-play-circle" aria-hidden="true"></i></div>
-								</a>
-								<div class="wenzi">
-									<div class="w3l-movie-text">
-										<h6><a href="xxx.html">xxxxxxxxxxxx(描述)</a></h6>							
-									</div>
-									<div class="mid-2">
-										<p>（日期）2018</p>
-									</div>
-								</div>
-								<div class="ribben">
-								  <p>NEW</p>
-								</div>
-								
-							
-					    </div>
-							<div class="col-md-2 w3l-movie-gride-agile">
-								<a href="xxx.html" class="hvr-shutter-out-horizontal"><img src="{dede:global.cfg_templets_skin/}/img/yande.re 424097 sample landscape niko_p signed thighhighs umbrella.jpg" title="xxx-name" class="img-responsive" alt=" " />
-									<div class="w3l-action-icon"><i class="glyphicon glyphicon-play-circle" aria-hidden="true"></i></div>
-								</a>
-								<div class="wenzi">
-									<div class="w3l-movie-text">
-										<h6><a href="xxx.html">xxxxxxxxxxxx(描述)</a></h6>							
-									</div>
-									<div class="mid-2">
-										<p>（日期）2018</p>
-									</div>
-								</div>
-								<div class="ribben">
-								  <p>NEW</p>
-								</div>
-								
-							
-							</div>
-							<div class="col-md-2 w3l-movie-gride-agile">
-								<a href="xxx.html" class="hvr-shutter-out-horizontal"><img src="{dede:global.cfg_templets_skin/}/img/yande.re 424097 sample landscape niko_p signed thighhighs umbrella.jpg" title="xxx-name" class="img-responsive" alt=" " />
-									<div class="w3l-action-icon"><i class="glyphicon glyphicon-play-circle" aria-hidden="true"></i></div>
-								</a>
-								<div class="wenzi">
-									<div class="w3l-movie-text">
-										<h6><a href="xxx.html">xxxxxxxxxxxx(描述)</a></h6>							
-									</div>
-									<div class="mid-2">
-										<p>（日期）2018</p>
-									</div>
-								</div>
-								<div class="ribben">
-								  <p>NEW</p>
-								</div>
-								
-							
-							</div>
-							<div class="col-md-2 w3l-movie-gride-agile">
-								<a href="xxx.html" class="hvr-shutter-out-horizontal"><img src="{dede:global.cfg_templets_skin/}/img/yande.re 424097 sample landscape niko_p signed thighhighs umbrella.jpg" title="xxx-name" class="img-responsive" alt=" " />
-									<div class="w3l-action-icon"><i class="glyphicon glyphicon-play-circle" aria-hidden="true"></i></div>
-								</a>
-								<div class="wenzi">
-									<div class="w3l-movie-text">
-										<h6><a href="xxx.html">xxxxxxxxxxxx(描述)</a></h6>							
-									</div>
-									<div class="mid-2">
-										<p>（日期）2018</p>
-									</div>
-								</div>
-								<div class="ribben">
-								  <p>NEW</p>
-								</div>
-								
-							
-							</div>
-							<div class="col-md-2 w3l-movie-gride-agile">
-								<a href="xxx.html" class="hvr-shutter-out-horizontal"><img src="{dede:global.cfg_templets_skin/}/img/yande.re 424097 sample landscape niko_p signed thighhighs umbrella.jpg" title="xxx-name" class="img-responsive" alt=" " />
-									<div class="w3l-action-icon"><i class="glyphicon glyphicon-play-circle" aria-hidden="true"></i></div>
-								</a>
-								<div class="wenzi">
-									<div class="w3l-movie-text">
-										<h6><a href="xxx.html">xxxxxxxxxxxx(描述)</a></h6>							
-									</div>
-									<div class="mid-2">
-										<p>（日期）2018</p>
-									</div>
-								</div>
-								<div class="ribben">
-								  <p>NEW</p>
-								</div>
-								
-							
-							</div>
-							<div class="col-md-2 w3l-movie-gride-agile">
-								<a href="xxx.html" class="hvr-shutter-out-horizontal"><img src="{dede:global.cfg_templets_skin/}/img/yande.re 424097 sample landscape niko_p signed thighhighs umbrella.jpg" title="xxx-name" class="img-responsive" alt=" " />
-									<div class="w3l-action-icon"><i class="glyphicon glyphicon-play-circle" aria-hidden="true"></i></div>
-								</a>
-								<div class="wenzi">
-									<div class="w3l-movie-text">
-										<h6><a href="xxx.html">xxxxxxxxxxxx(描述)</a></h6>							
-									</div>
-									<div class="mid-2">
-										<p>（日期）2018</p>
-									</div>
-								</div>
-								<div class="ribben">
-								  <p>NEW</p>
-								</div>
-								
-							
-							</div>
-<div class="clearfix"> </div>
-					  </div>
-					</div>
-					<div role="tabpanel" class="tab-pane fade" id="profile" aria-labelledby="profile-tab">
-					  <div class="col-md-2 w3l-movie-gride-agile">
-								<a href="xxx.html" class="hvr-shutter-out-horizontal"><img src="{dede:global.cfg_templets_skin/}/img/yande.re 424097 sample landscape niko_p signed thighhighs umbrella.jpg" title="xxx-name" class="img-responsive" alt=" " />
-									<div class="w3l-action-icon"><i class="glyphicon glyphicon-play-circle" aria-hidden="true"></i></div>
-								</a>
-								<div class="wenzi">
-									<div class="w3l-movie-text">
-										<h6><a href="xxx.html">xxxxxxxxxxxx(描述)</a></h6>							
-									</div>
-									<div class="mid-2">
-										<p>（日期）2018</p>
-									</div>
-								</div>
-								<div class="ribben">
-								  <p>NEW</p>
-								</div>
-								
-							
-							</div>
-						<div class="clearfix"> </div>
-				  </div>
-					<div role="tabpanel" class="tab-pane fade" id="rating" aria-labelledby="rating-tab">
-					  <div class="col-md-2 w3l-movie-gride-agile">
-								<a href="xxx.html" class="hvr-shutter-out-horizontal"><img src="{dede:global.cfg_templets_skin/}/img/yande.re 424097 sample landscape niko_p signed thighhighs umbrella.jpg" title="xxx-name" class="img-responsive" alt=" " />
-									<div class="w3l-action-icon"><i class="glyphicon glyphicon-play-circle" aria-hidden="true"></i></div>
-								</a>
-								<div class="wenzi">
-									<div class="w3l-movie-text">
-										<h6><a href="xxx.html">xxxxxxxxxxxx(描述)</a></h6>							
-									</div>
-									<div class="mid-2">
-										<p>（日期）2018</p>
-									</div>
-								</div>
-								<div class="ribben">
-								  <p>NEW</p>
-								</div>
-								
-							
-							</div>
-<div class="clearfix"> </div>
-				  </div>
-</div>
+								<div class="ribben"><p>NEW</p></div>
+							</li>
+						{/dede:arclist}
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
+	<div class="clearfix"> </div>
 
 	<!--导航栏 begin-->
 

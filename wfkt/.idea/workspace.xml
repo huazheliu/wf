@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="21060ac0-fd32-44c3-922c-031fa01cfc82" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/a/weifengtuwen/2019/0406/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/a/weifengtuwen/2019/0406/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/weifengtuwen/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/a/weifengtuwen/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/weifengtuwen/list_1_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/a/weifengtuwen/list_1_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/weifengxiaoshipin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/a/weifengxiaoshipin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/weifengxiaoshipin/list_2_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/a/weifengxiaoshipin/list_2_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cache/inc_catalog_base.inc" beforeDir="false" afterPath="$PROJECT_DIR$/data/cache/inc_catalog_base.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cache/listcache/cf/07/bc/cf07bc692ccc4aaf6f95267def4cb40a.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/cache/listcache/cf/07/bc/cf07bc692ccc4aaf6f95267def4cb40a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cache/listcache/eb/7d/c5/eb7dc52fec583a913eec114ef954d3a4.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/cache/listcache/eb/7d/c5/eb7dc52fec583a913eec114ef954d3a4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cache/memberlogin/c4/ca/42/c4ca4238a0b923820dcc509a6f75849b.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/cache/memberlogin/c4/ca/42/c4ca4238a0b923820dcc509a6f75849b.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/config.cache.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/config.cache.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/sessions_a9bea6fc18/sess_8b2jb71dg4v78ifka4n2e5ct86" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/sessions_a9bea6fc18/sess_amrb98nvd1jt2n7ceh8g226um2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/sessions_a9bea6fc18/sess_pubu1pq1f2fousb60at38l7n47" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tplcache/index.htm4818c09a99473ca4.inc" beforeDir="false" afterPath="$PROJECT_DIR$/data/tplcache/index.htm4818c09a99473ca4.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tplcache/index.htm4818c09a99473ca4.inc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/tplcache/index.htm4818c09a99473ca4.inc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tplcache/list_ch14.htma9ed6fafc9a3852d.inc" beforeDir="false" afterPath="$PROJECT_DIR$/data/tplcache/list_ch14.htma9ed6fafc9a3852d.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tplcache/list_ch14.htma9ed6fafc9a3852d.inc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/tplcache/list_ch14.htma9ed6fafc9a3852d.inc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/action_search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/actionsearch_class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/ad_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/ad_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/ad_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/adtype_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/album_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/album_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/album_testhtml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/api_ucenter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/archives_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/archives_do.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/archives_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/archives_sg_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/archives_sg_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/article_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/article_allowurl_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/article_coonepage_rule.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/article_description_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/article_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/article_keywords_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/article_keywords_make.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/article_keywords_select.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/article_select_sw.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/article_source_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/article_string_mix.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/article_template_rand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/article_test_same.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/article_test_title.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/article_writer_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/baidunews.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/cards_make.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/cards_manage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/cards_type.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/catalog_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/catalog_del.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/catalog_do.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/catalog_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/catalog_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/catalog_menu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/co_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/co_do.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/co_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/co_edit_text.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/co_export.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/co_export_corule.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/co_gather_start.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/co_gather_start_action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/co_get_corule.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/co_getsource_url_action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/co_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/co_test_rule.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/co_url.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/co_view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/content_att.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/content_batch_up.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/content_batchup_action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/content_i_list.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/content_list.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/content_s_list.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/content_select_list.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/content_sg_list.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/content_tj.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/css/boxy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/css/codemirror.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/css/frame.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/css/indexbody.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/css/lurd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/css/menuold.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/css/swfupload.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/css/tb-box.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/diy_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/diy_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/diy_field_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/diy_field_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/diy_list.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/diy_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/erraddsave.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/exit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/feedback_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/feedback_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/file_class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/file_manage_control.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/file_manage_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/file_manage_view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/file_pic_view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/freelist_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/freelist_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/freelist_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/friendlink_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/friendlink_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/friendlink_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/friendlink_type.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/getdedesysmsg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/group_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/group_guestbook.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/group_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/group_notice.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/group_store.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/group_threads.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/group_user.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/imagecut.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/SmallSpyGlassWithTransperancy_17x18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/addnews.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/admin_top_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/admin_top_logo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/adminico.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/adminuserico.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/adtype_act.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/adtype_link.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/alb1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/alb2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/alb3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/albviewbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/allbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/allbtbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/allbtbg2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/allmenu.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/arr3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/arr4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/arrfc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/arrl.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/arrr.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/arttag.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/biz.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/bk.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/blankbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/bodybg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/book.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/book1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/booknopic.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/bottombg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/boxy-ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/boxy-nw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/boxy-se.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/boxy-sw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/bt.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/btn_fullscan.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/btn_scan.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/bulebg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/button_back.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/button_bg1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/button_ok.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/button_reset.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/button_save.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/button_search.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/calendar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/cd.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/channeladd.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/channellist.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/close.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/color.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/colornew.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/copy.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/css.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/dedecontract.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/dedeexplode.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/dedeexplode2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/dfpic.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/dir.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/dir2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/dlgtitle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/error.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/exbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/exe.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/exit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/feedback-edit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/file_del.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/file_dir.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/file_edit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/file_htm.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/file_move.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/file_newdir.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/file_newfile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/file_pic.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/file_rename.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/file_script.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/file_swf.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/file_topdir.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/file_tt.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/file_txt.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/file_unknow.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/file_uploadfile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/file_view.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/flash.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/fold.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/g_t1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/g_t2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/g_t3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/g_t4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/gif.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/gtk-copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/gtk-del.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/gtk-edit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/gtk-ex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/gtk-ok.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/gtk-sadd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/gtk-search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/gtk-tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/help.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/htm.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/ico-close.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/ico-sysmsg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/ico_spider.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/idnbg1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/idnbgfoot.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/image.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/img_pre_none.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/indextbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/indextitlebg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/input.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/item_tt2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/itemcomenu.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/itemcomenu2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/itemnote1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/itemnote2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/itemnote3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/jpg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/js.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/lbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/left_bg_top.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/leftbg2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/leftmbg1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/leftmenu_bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/list.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/listtag.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/lmenubg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/loadinglit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/login-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/login-btn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/login-top.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/m-contract.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/m-expand.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/macFFBgHack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/manage1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/mbcbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/mbtbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/menu-ex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/menu_bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/menu_bottom.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/menu_top.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/menuarrow.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/menubg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/menumember.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/menunewbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/menunewbg2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/menusearch.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/menusearch2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/mmenubg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/mmenubg2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/modeview1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/modeview2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/mp3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/mtbg1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/mtimg1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/mtitle_bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/mtitle_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/mtitle_l.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/mtitle_r.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/newitem.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/newlinebg3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/newmenu-topright.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/next.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/open.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/paramater.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/part-index.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/part-list.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/part-sgpage.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/part-url.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/parttag.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/pbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/php.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/pic_dir.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/picview.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/picviewnone.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/plan.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/pview.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/question-balloon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/quick_bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/re-write1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/righttopbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/rm.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/ruler.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/safe-tips.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/scrdw.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/scrup.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/search_bn.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/skinbutton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/slide.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/sp_bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/spectag.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/style1/admin_top_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/style1/admin_top_logo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/style1/dlgtitle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/style1/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/style2/admin_top_bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/style2/admin_top_logo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/style2/dlgtitle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/style2/leftbg2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/style2/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/style2tbgr.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/style3/admin_top_bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/style3/admin_top_logo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/style3/dlgtitle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/style3/leftbg2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/style3/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/style4/admin_top_bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/style4/admin_top_logo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/style4/dlgtitle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/style4/leftbg2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/style4/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/tbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/tbgv.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/tbody_toggle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/toggle_menu.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/toobig.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/topbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/topbg2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/topitem2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/topitembg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/toprightbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/tree_explode.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/tree_page.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/tree_part.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/trun.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/txt.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/typeid2bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/uploadlimit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/view_img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/wbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/wmv.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/write1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/write2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/zerobyte.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/images/zip.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/inc/configgroup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/inc/fieldtype.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/inc/grouplist.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/inc/inc_action_info.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/inc/inc_admin_channel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/inc/inc_archives_all.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/inc/inc_archives_functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/inc/inc_batchup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/inc/inc_catalog_options.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/inc/inc_coonepage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/inc/inc_list_functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/inc/inc_menu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/inc/inc_menu_func.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/inc/inc_menu_map.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/inc/inc_menu_module.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/index_body.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/index_menu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/index_menu_load.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/index_menu_module.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/index_testenv.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/index_top.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/album.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/blank.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/boxy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/calendar/calendar-green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/calendar/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/co.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/codemirror.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/context_menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/contextmenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/dedeajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/diy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/drag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/float.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/frame.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/handlers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/ieemu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/indexbody.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/jquery.json-2.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/key.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/leftmenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/member.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/clike/clike.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/clike/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/clike/scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/clike/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/css/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/css/gss.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/css/gss_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/css/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/css/less.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/css/less_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/css/scss.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/css/scss_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/css/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/htmlmixed/htmlmixed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/htmlmixed/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/javascript/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/javascript/javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/javascript/json-ld.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/javascript/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/javascript/typescript.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/php/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/php/php.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/php/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/sql/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/sql/sql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/xml/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/xml/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/mode/xml/xml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/story.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/js/tb-box.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/log_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/log_list.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/mail_file_manage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/mail_getfile.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/mail_send.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/mail_title.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/mail_title_send.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/mail_type.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/makehtml_all.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/makehtml_archives.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/makehtml_archives_action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/makehtml_freelist.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/makehtml_freelist_action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/makehtml_homepage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/makehtml_js.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/makehtml_js_action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/makehtml_list.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/makehtml_list_action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/makehtml_map.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/makehtml_map_guide.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/makehtml_rss.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/makehtml_rss_action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/makehtml_spec.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/makehtml_story.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/makeremote_all.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/mda_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/media_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/media_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/media_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/member_do.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/member_feed_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/member_guestbook.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/member_info_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/member_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/member_model_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/member_model_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/member_model_field_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/member_model_field_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/member_model_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/member_msg_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/member_operations.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/member_pm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/member_pmall.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/member_pmone.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/member_rank.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/member_scores.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/member_toadmin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/member_type.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/member_view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/module_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/module_make.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/module_upload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/mychannel_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/mychannel_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/mychannel_field_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/mychannel_field_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/mychannel_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/mynews_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/mynews_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/mynews_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/mytag_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/mytag_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/mytag_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/mytag_tag_guide.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/mytag_tag_guide_ok.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/pic_view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/plus_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/plus_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/public_guide.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/recycling.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/search_keywords_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/shops_delivery.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/shops_operations.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/shops_operations_cart.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/shops_operations_userinfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/soft_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/soft_config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/soft_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/spec_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/spec_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/stepselect_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/story_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/story_add_action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/story_add_content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/story_add_content_action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/story_add_photo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/story_add_photo_action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/story_books.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/story_catalog.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/story_content_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/story_do.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/story_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/story_edit_action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/story_edit_content_action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/story_edit_photo_action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/story_feedback_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/story_feedback_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/story_list_chapter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/story_list_content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/story_photo_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/swfupload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_admin_user.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_admin_user_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_admin_user_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_admin_user_tj.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_cache_up.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_data.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_data_done.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_data_replace.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_data_revert.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_group.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_group_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_group_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_info.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_info_mark.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_multiserv.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_passport.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_payment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_repair.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_safe.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_safetest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_sql_info.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_sql_query.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_task.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_task_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_task_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/sys_verifies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/tag_test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/tag_test_action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/tags_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/task_do.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/action_search.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/ad_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/ad_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/ad_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/adtype_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/album_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/album_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/api_ucenter_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/api_ucenter_install.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/archives_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/archives_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/archives_sg_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/archives_sg_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/article_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/article_coonepage_rule.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/article_description_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/article_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/article_keywords_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/article_keywords_make.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/article_keywords_select.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/article_result_same.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/article_test_same.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/ask_admin.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/ask_answer.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/ask_type.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/baidunews.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/cards_make.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/cards_manmage.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/cards_type.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/catalog_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/catalog_add_quick.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/catalog_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/catalog_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/catalog_menu.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/catalog_menu2.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/co_add_step0.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/co_add_step1.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/co_add_step1_test.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/co_add_step2.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/co_add_step2_test.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/co_config.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/co_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/co_export.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/co_gather_start.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/co_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/co_test_rule.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/co_trimrule.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/co_url.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/co_url_2.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/co_view.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/content_att.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/content_batch_up.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/content_i_list.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/content_list.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/content_s_list.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/content_select_list.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/content_sg_list.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/content_tj.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/data_switch_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/diy_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/diy_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/diy_edit_content.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/diy_field_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/diy_field_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/diy_list.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/diy_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/diy_post.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/erradd.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/feedback_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/feedback_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/file_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/file_manage_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/file_pic_view.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/file_upload.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/freelist_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/freelist_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/freelist_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/friendlink_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/friendlink_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/friendlink_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/friendlink_type.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/group_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/group_guestbook.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/group_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/group_notice.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/group_store.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/group_threads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/group_user.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/imagecut.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/index2.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/index_body.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/index_body_move.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/index_body_showad.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/index_body_showauth.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/index_menu2.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/index_top2.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/log_list.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/login.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/login_ad.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/lurd/lurd-add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/lurd/lurd-edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/lurd/lurd-list.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/mail_file_manage.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/mail_getfile.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/mail_send.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/mail_title_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/mail_title_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/mail_title_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/mail_title_send.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/mail_type_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/mail_type_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/mail_type_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/makehtml_all.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/makehtml_archives.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/makehtml_freelist.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/makehtml_homepage.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/makehtml_js.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/makehtml_list.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/makehtml_map_guide.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/makehtml_rss.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/makehtml_spec.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/makehtml_story.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/makeremote_all.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/media_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/media_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/media_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/member_feed_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/member_guestbook.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/member_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/member_model_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/member_model_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/member_model_field_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/member_model_field_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/member_model_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/member_mood_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/member_operations.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/member_pm.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/member_pmall.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/member_pmone.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/member_rank.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/member_scores.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/member_toadmin.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/member_type.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/member_view.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/module_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/module_help.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/module_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/module_make.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/module_upload.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/mychannel_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/mychannel_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/mychannel_field_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/mychannel_field_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/mychannel_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/mychannel_modifysearch.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/mynews_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/mynews_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/mynews_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/mytag_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/mytag_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/mytag_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/mytag_tag_guide.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/mytag_tag_guide_ok.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/pic_view.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/plus_bshare.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/plus_bshare_state.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/plus_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/plus_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/public_guide.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/recycling.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/search_keywords_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/shops_delivery.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/shops_operations.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/shops_operations_cart.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/shops_operations_userinfo.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/soft_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/soft_config.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/soft_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/spec_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/spec_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/stepselect_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/stepselect_showajax.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/story_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/story_add_content.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/story_add_photo.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/story_books.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/story_catalog.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/story_content_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/story_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/story_feedback_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/story_feedback_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/story_list_chapter.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/story_list_content.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/story_photo_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_admin_user.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_admin_user_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_admin_user_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_admin_user_tj.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_cache_up.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_data.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_data_replace.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_data_revert.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_group.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_group_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_group_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_info.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_info_mark.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_info_pay.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_multiserv.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_passport.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_payment.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_payment_install.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_safe.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_safetest.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_sql_query.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_task.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_task_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_task_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_verifies.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_verifies_getfiles.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_verifies_manage.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/sys_verifies_verify.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/tag_test.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/tags_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/templets_default.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/templets_one.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/templets_one_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/templets_one_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/templets_tagsource.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/tpl_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/tpl_edit_tag.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/tpl_newfile.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/update_guide_getfiles.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/update_guide_getlist.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/video_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/video_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/vote_add.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/vote_edit.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/vote_getcode.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/vote_main.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/vote_select.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/winmode.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets/winmodesmall.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets_one.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets_one_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets_one_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/templets_tagsource.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/testenv.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/update_guide.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/vote_add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/vote_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/vote_getcode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dede/vote_main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templets/default/article_ch14.htm" beforeDir="false" afterPath="$PROJECT_DIR$/templets/default/article_ch14.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templets/default/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/templets/default/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templets/default/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/templets/default/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templets/default/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/templets/default/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templets/default/list_ch14.htm" beforeDir="false" afterPath="$PROJECT_DIR$/templets/default/list_ch14.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templets/initial_default/article_article.htm" beforeDir="false" afterPath="$PROJECT_DIR$/templets/initial_default/article_article.htm" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/default/list_ch14_m.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/default/article_ch14_m.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="111" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templets/default/article_ch14.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>w3l-movie-gride-agile</find>
+      <find>head</find>
+      <find>ul</find>
+      <find>tab-content</find>
+      <find>col-md-2</find>
+      <find>head-nav</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templets/default/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/templets/initial_default/article_article.htm" />
+        <option value="$PROJECT_DIR$/templets/default/css/style.css" />
+        <option value="$PROJECT_DIR$/templets/default/list_ch14.htm" />
+        <option value="$PROJECT_DIR$/templets/default/article_ch14_m.htm" />
+        <option value="$PROJECT_DIR$/templets/default/list_ch14_m.htm" />
+        <option value="$PROJECT_DIR$/templets/default/index.htm" />
+        <option value="$PROJECT_DIR$/templets/default/article_ch14.htm" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2020" />
+    <option name="y" value="69" />
+    <option name="width" value="1633" />
+    <option name="height" value="950" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="wfkt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wfkt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wfkt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wfkt" type="462c0819:PsiDirectoryNode" />
+              <item name="templets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wfkt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wfkt" type="462c0819:PsiDirectoryNode" />
+              <item name="templets" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21060ac0-fd32-44c3-922c-031fa01cfc82" name="Default Changelist" comment="" />
+      <created>1554524618362</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554524618362</updated>
+      <workItem from="1554524622551" duration="12194000" />
+      <workItem from="1554610778696" duration="4084000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16278000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12260128" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templets/default/list_ch14.htm.bak" />
+    <entry file="file://$PROJECT_DIR$/templets/default/list_article.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/initial_default/article_article.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="121" column="11" selection-start-line="114" selection-start-column="2" selection-end-line="121" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/article_article.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/css/medile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="148" column="12" selection-start-line="148" selection-start-column="12" selection-end-line="148" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="1972" column="3" selection-start-line="1972" selection-start-column="3" selection-end-line="1972" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3366">
+          <caret line="153" column="14" selection-start-line="153" selection-start-column="14" selection-end-line="153" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/head.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/css/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/list_ch14.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="40" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/list_ch14_m.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/article_ch14_m.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="111" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/article_ch14.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

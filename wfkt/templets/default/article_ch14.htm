@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>图文教程</title>
+    <title>视频教程</title>
     <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/bootstrap.min.css">
     <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/css.css">
     <script  src="{dede:global.cfg_templets_skin/}/js/jquery.js"></script>
     <script src="{dede:global.cfg_templets_skin/}/js/bootstrap.min.js"></script>
+    <script language="javascript" type="text/javascript" src="/wf/wfkt/ckplayer/ckplayer/ckplayer.js"></script>
     <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/medile.css">
     <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/wordclass2.css">
 </head>
@@ -14,15 +15,51 @@
 <!--导航栏 begin-->
 {dede:include file="head.htm" /}
 
-<h4 class="latest-text w3_latest_text">图文教程</h4>
+<h4 class="latest-text w3_latest_text">视频教程</h4>
 <!--导航栏 ending-->
 
-<div class="body">
-    <div class="passage_author"><div class="passage_author1">
-
-    </div></div>
+<div>
+    {dede:field name="title"/}
+    {dede:field name="pubdate" function="GetDateTimeMK(@me)"/}
     <hr>
-    <div class="passage_body"></div>
+    <!--视频播放器-->
+    <div id="video" style="width: 100%; height: 400px;max-width: 600px;"></div>
+    <script type="text/javascript" src="ckplayer/ckplayer.js" charset="UTF-8"></script>
+    <script type="text/javascript">
+        var videoObject = {
+            container: '#video', //容器的ID或className
+            variable: 'player', //播放函数名称
+            //loop: true, //播放结束是否循环播放
+            autoplay: false,//是否自动播放
+            poster: 'material/poster.jpg', //封面图片
+            preview: { //预览图片
+                file: ['material/mydream_en1800_1010_01.png', 'material/mydream_en1800_1010_02.png'],
+                scale: 2
+            },
+            //flashplayer:true,
+            //live:true,
+            //debug:true,
+            video:[
+                ['{dede:field name="video_address"/}', 'video/mp4', '中文标清', 0],
+                ['http://img.ksbbs.com/asset/Mon_1703/d0897b4e9ddd9a5.mp4', 'video/mp4', '中文高清', 0],
+                ['http://img.ksbbs.com/asset/Mon_1703/eb048d7839442d0.mp4', 'video/mp4', '英文高清', 0],
+                ['http://img.ksbbs.com/asset/Mon_1703/d30e02a5626c066.mp4', 'video/mp4', '英文超清', 0]
+            ]
+        };
+        var player = new ckplayer(videoObject);
+    </script>
+</div>
+</div>
+
+<div class="footer">
+    <div class="wp">
+        <h2>友情链接</h2>
+        <ul class="foot-nav">
+            <li><a href="http://gxdxszx.cloudsen.cn/">广西大学生在线</a></li>
+            <li><a href="http://www.yiban.cn/">易班研究发展中心</a></li>
+            <li><a href="http://jcyk.myclub2.com/">广西思政教育平台</a></li>
+        </ul>
+    </div>
 </div>
 </body>
 </html>

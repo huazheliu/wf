@@ -9,7 +9,7 @@
 <meta http-equiv="mobile-agent" content="format=xhtml;url={dede:global.cfg_mobileurl/}/view.php?aid={dede:field.id/}">
 <script type="text/javascript">if(window.location.toString().indexOf('pref=padindex') != -1){}else{if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){if(window.location.href.indexOf("?mobile")<0){try{if(/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){window.location.href="{dede:global.cfg_mobileurl/}/view.php?aid={dede:field.id/}";}else if(/iPad/i.test(navigator.userAgent)){}else{}}catch(e){}}}}</script>
 <script language="javascript" type="text/javascript" src="{dede:global.cfg_cmsurl/}/include/dedeajax2.js"></script>
-
+ <script language="javascript" type="text/javascript" src="/wf/wfkt/ckplayer/ckplayer.js"></script>
 <script language="javascript" type="text/javascript">
 <!--
 function CheckLogin(){
@@ -112,6 +112,14 @@ function getDigg(aid)
   {dede:field.description runphp='yes'}
   if(@me<>'' )@me = '
   <div class="intro">'.@me.'</div>
+  <script type="text/javascript">
+   var videoObeject={
+      container:"vedio",
+      variable:"plauer",
+      video:"'.@me.'"
+   };
+   var player=new ckplayer(videoObeject);
+  </script>
   ';
   {/dede:field.description}
   <div class="content">
