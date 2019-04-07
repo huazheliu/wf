@@ -30,5 +30,7 @@ $z[8][4]['name']="writer";
 $z[9]=Array("field","",1018,1043);
 $z[9][4]=array();
 $z[9][4]['name']="body";
+$z[10]=Array("adminname","",1073,1090);
+$z[10][4]=array();
 
 ?>

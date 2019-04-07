@@ -154,8 +154,4 @@ $cfg_memcache_mc_oth = '';
 $cfg_cross_sectypeid = 'N';
 $cfg_digg_update = 0;
 $cfg_feedback_guest = 'N';
-$cfg_ckplayer_key = '';
-$cfg_ckplayer_name = '';
-$cfg_ckplayer_url = '';
-$cfg_ckplayer_version = '';
 ?>
