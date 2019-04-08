@@ -6,7 +6,7 @@ var canvas = document.getElementById("canvas");
 		ctx.lineWidth = 17;
 		ctx.shadowBlur= 15;
 		ctx.shadowColor = '#00ffff';
-ctx.scale(0.5,0.5);
+ctx.scale(0.36,0.36);
 
 		function degToRad(degree){
 			var factor = Math.PI/180;

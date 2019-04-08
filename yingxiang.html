@@ -1,18 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Î¢·ç¹ÙÍø</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
-    <script  src="js/jquery.js"></script>
-    <script src="js/jquery-3.3.1.min.js" ></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/scripts.js"></script>
+ï»¿<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]--><head>
+        <meta charset="utf-8">
+        <title>å¾®é£æ˜“äº‘</title>
+        <meta name="description" content="">
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--å¤–éƒ¨CSS -->
+ 		<link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/plugins.css">
+
+        <link rel="stylesheet" href="assets/css/bootstrap-touch-slider.css">
+
+        <!--æ ·å¼css -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!--<link rel="stylesheet" href="assets/css/colors/blue.css">-->
+
+        <!--å“åº”css-->
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+
+        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+		<link rel="stylesheet" href="css/style.css">
     <style type="text/css">
         html, body {width:100%;height:100%;}
         .my-navbar {padding:20px 0;transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;}
@@ -21,20 +32,34 @@
         .my-navbar a {transition: color 0.5s ease-in-out;}
         button.navbar-toggle {background-color:rgba(0,0,0,0.7);}
         button.navbar-toggle > span.icon-bar {background-color:#dedede}
+        .sections
+        {
+            padding: 5px 0; !important;
+        }
+        .dir-3 {
+            height: 100%;
+        !important;
+        }
     </style>
-</head>
-<body ondragstart="return false">
-<div class="loader-mask">
-    <div class="loader">
-        "Loading..."
-    </div>
-</div>
-<!--µ¼º½À¸begin-->
+    </head>
+    <body data-spy="scroll" data-target=".navbar-collapse">
+
+        <!-- loader -->
+        <div class="preloader loaderbox">
+            <div id="cupcake" class="loaderbox">
+                <span class="letter">L</span>
+                <div class="cupcakeCircle loaderbox"><div class="cupcakeInner loaderbox"><div class="cupcakeCore loaderbox"></div></div></div>
+                <span class="letter loaderbox">A</span><span class="letter loaderbox">D</span><span class="letter loaderbox">I</span><span class="letter loaderbox">N</span><span class="letter loaderbox">G</span>
+            </div>
+        </div>
+        <!--End off loader -->
+  
+<!--å¯¼èˆªæ begin-->
 <nav class="navbar navbar-fixed-top my-navbar" role="navigation" id="1">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-                <span class="sr-only">Õ¹¿ªµ¼º½</span>
+                <span class="sr-only">å±•å¼€å¯¼èˆª</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -44,326 +69,333 @@
 
         <div class="collapse navbar-collapse" id="menu">
             <ul class="nav navbar-nav nav-tabs nav-justified">
-                <li> <a href="#">Î¢·ç¹ÙÍø</a> </li>
-                <li> <a href="yiyun.html">Î¢·çÒ×ÔÆ</a> </li>
-                <li> <a href="yingxiang.html">Î¢·çÓ³Ïñ</a> </li>
-                <li> <a href="wfkt/index.html">Î¢·ç¿ÎÌÃ</a> </li>
-                <li> <a href="wfxl/index.html">Î¢·çĞÄÀí</a> </li>
-                <li> <a href="#" id="onmouse">Î¢·çFamily</a></li>
+                <li> <a href="index.html">å¾®é£å®˜ç½‘</a> </li>
+                <li> <a href="yiyun.html">å¾®é£æ˜“äº‘</a> </li>
+                <li> <a href="#">å¾®é£æ˜ åƒ</a> </li>
+                <li> <a href="/wf/wfkt">å¾®é£è¯¾å ‚</a> </li>
+                <li><a href="wfxl/index.html">å¾®é£å¿ƒç†</a></li>
+                <li id="hover"> <a href="index.html">å¾®é£Family</a>
+                    <div class="fam" id="fam" align="center">
+                    <img src="pic/1551255677.png" alt="">
+                    <p>QQ:XXXXXXXXX</p>
+                    <p>XXXXXXXXX</p>
+
+                </div>
+                </li>
             </ul>
         </div>
-        <div class="fam" id="fam" align="center">
-            <img src="img/1551255677.png" alt="">
-            <p>QQ:XXXXXXXXX</p>
-            <p>XXXXXXXXX</p>
 
-        </div>
     </div>
-</nav>        <!-- µ¼º½À¸end -->
+</nav>        <!-- å¯¼èˆªæ end -->
 
 
-<main>
-        <!--±³¾°-->
+        <!--èƒŒæ™¯-->
         <div class="img">
-            <div class="opacity"></div>
-            <div id="remove" class="container char container-full-height">
-                <div class="outer">
-                    <div class="inner text-title animate">
-                        <h1>XXXXXXXXXXX</h1>
-                        <h1 class="">360¶ÈÈ«·½Î»Ã½ÌåÍÆ¹ã</h1>
-                        <h4>Design&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;Media&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;Internet&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;Live&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;Maintenance</h4>
-                    </div>
-                </div>
-            </div>
+           
+       
+           
+                        <h1>1</h1>
+          
         </div>
+          
+                <div class="img">
+          <section id="homev1" class="homev1 home-one">
+                
+                <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line kenburns_zoomInOut" data-ride="carousel" data-interval="10000" >
+                    <!-- Wrapper For Slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <!-- Third Slide -->
+                        <div class="item active">
+                            <!-- Slide Background -->
+                            <img src="img/hezhao.jpg" alt="SeoPress Slider" />
+                            <div class="bs-slider-overlay"></div>
 
-        <div class="dir-5">
-            <div class="container animate">
-                <img id="phone1" src="img/Í¼Æ¬4.png" alt="">
-            </div>
-        </div>
-
-
-
-    <div class="dir-3">
-        <div class="container animate">
-            <div class="col-md-5">
-                <img src="img/Í¼Æ¬2.png" alt="">
-            </div>
-            <div class="col-md-7">
-                <div class="boxes" id="box0">
-                    <div class="meta" >
-
-                            <img id="meta0" src="img/icon1.png" alt="">
-
-                    </div>
-                    <div class="cell">
-                        <p id="p_1">
-                            ÍÅ¶ÓĞ­×÷ÄÜÁ¦£¬ÊÇÖ¸½¨Á¢ÔÚÍÅ¶ÓµÄ»ù´¡Ö®ÉÏ£¬·¢»ÓÍÅ¶Ó¾«Éñ¡¢»¥²¹»¥ÖúÒÔ´ïµ½ÍÅ¶Ó×î´ó¹¤×÷Ğ§ÂÊµÄÄÜÁ¦¡£
-                            ¶ÔÓÚÎ¢·çÍÅ¶ÓµÄ³ÉÔ±À´Ëµ£¬²»½öÒªÓĞ¸öÈËÄÜÁ¦£¬¸üĞèÒªÓĞÔÚ²»Í¬µÄÎ»ÖÃÉÏ¸÷¾¡ËùÄÜ¡¢ÓëÆäËû³ÉÔ±Ğ­µ÷ºÏ×÷µÄÄÜÁ¦¡£
-
-                        </p>
-                    </div>
-                </div>
-                <div class="boxes" id="box1">
-                    <div  class="meta">
-                            <img id="meta1" src="img/icon2.png" alt="">
-                    </div>
-                    <div class="cell">
-                            <p id="p_2">
-                                ÇãÌı£¬ÊÇÓĞĞ§¹µÍ¨µÄ±ØÒª²¿·Ö£¬ÒÔÇóË¼Ïë´ï³ÉÒ»ÖÂºÍ¸ĞÇéµÄÍ¨³©¡£Î¢·çÍÅ¶ÓÈÏÕæÇãÌıÃ¿¸ö³ÉÔ±µÄÒâ¼û£¬
-                                ĞéĞÄ¡¢ÄÍĞÄ¡¢³ÏĞÄµÄ¶Ô´ıÌá³öµÄ¸÷ÖÖ²»Í¬Ïë·¨¡£
-                            </p>
-                    </div>
-                </div>
-                <div class="boxes" id="box2">
-                    <div class="meta">
-                            <img id="meta2" src="img/icon3.png" alt="">
-                    </div>
-                    <div class="cell">
-                        <p id="p_3">
-                            ÇãÌı£¬ÊÇÓĞĞ§¹µÍ¨µÄ±ØÒª²¿·Ö£¬ÒÔÇóË¼Ïë´ï³ÉÒ»ÖÂºÍ¸ĞÇéµÄÍ¨³©¡£Î¢·çÍÅ¶ÓÈÏÕæÇãÌıÃ¿¸ö³ÉÔ±µÄÒâ¼û£¬
-                            ĞéĞÄ¡¢ÄÍĞÄ¡¢³ÏĞÄµÄ¶Ô´ıÌá³öµÄ¸÷ÖÖ²»Í¬Ïë·¨¡£
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="dir-4">
-        <div class="container animate">
-            <div>
-                <img src="img/top.png" alt="">
-            </div>
-            <div class="history">
-                <div id="swiper-history">
-                    <div class="swiper-container">
-                        <div class="swiper-pagination">
-                        </div>
-                        <div class="swiper-wrapper">
-                        </div>
-                        <div class="short-line">
-                        </div>
-                        <div class="long-line">
-                        </div>
-                    </div>
-                    <div class="swiper-button-prev glyphicon glyphicon-chevron-left">
-                    </div>
-                    <div class="swiper-button-next glyphicon glyphicon-chevron-right">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Swiper JS -->
-    <script src="js/swiper.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-        var modifier=2;//Ã¿ÌìµÄpx
-        var historyList=[{"detail":"2006Äê1ÔÂ´´½¨ÁËjQuery","date":"2014-11-21"},
-            {"detail":"2007Äê7ÔÂ£¬jQuery 1.1.3°æ·¢²¼","date":"2015-02-01"},
-            {"detail":"2008Äê5ÔÂ£¬jQuery 1.2.6°æ·¢²¼","date":"2015-02-26"},
-            {"detail":"2009Äê9ÔÂ£¬Î¢ÈíºÍÅµ»ùÑÇ¹«Ë¾ÕıÊ½Ğû²¼Ö§³Ö¿ªÔ´µÄjQuery¿â","date":"2015-03-06"},
-            {"detail":"2009Äê1ÔÂ£¬jQuery 1.3°æ·¢²¼","date":"2015-03-22"},
-            {"detail":"2010Äê1ÔÂ£¬Ò²ÊÇjQueryµÄËÄÖÜÄêÉúÈÕ","date":"2015-07-27"},
-            {"detail":"jQueryÍ¨¹ıJavaScriptµÄeval·½·¨À´½âÎöjson¶ÔÏó","date":"2015-11-07"},
-            {"detail":"2010Äê2ÔÂ£¬jQuery 1.4.2°æ·¢²¼£¬ËüĞÂÔöÁËÓĞ¹ØÊÂ¼şÎ¯ÍĞµÄÁ½¸ö·½·¨","date":"2016-01-10"},
-            {"detail":"jQueryµÄÑ¡Ôñ»úÖÆ¹¹½¨ÓÚCssµÄÑ¡ÔñÆ÷","date":"2016-05-27"},
-            {"detail":"jQueryÖĞÄÚÖÃÁËÒ»ÏµÁĞµÄ¶¯»­Ğ§¹û£¬¿ÉÒÔ¿ª·¢³ö·Ç³£Æ¯ÁÁµÄÍøÒ³","date":"2016-10-16"},
-            {"detail":"AJAXÊÇÒì²½µÄJavaScriptºÍMLµÄ¼ò³Æ£¬¿ÉÒÔ¿ª·¢³ö·Ç³£ÁéÃôÎŞË¢ĞÂµÄÍøÒ³","date":"2017-01-19"},
-        ];
-
-        var mySwiper = new Swiper('#swiper-history .swiper-container',{
-            virtualTranslate : true,
-            preventClicks : false,
-            prevButton:'#swiper-history .swiper-button-prev',
-            nextButton:'#swiper-history .swiper-button-next',
-            pagination:'#swiper-history .swiper-pagination',
-            paginationClickable:true,
-            paginationBulletRender: function (swiper, index, className) {
-                if(index>0){
-                    day1 = new Date(historyList[index]['date'].replace(/-/g, "/"));
-                    day2 = new Date(historyList[index-1]['date'].replace(/-/g, "/"));
-                    time=day1-day2
-                    marginLeft=parseInt( time/ (1000 * 60 * 60 * 24))*modifier;
-                }else{
-                    marginLeft=0
-                }
-
-                return '<span class="' + className + '" style="margin-left:'+marginLeft+'px;"></span>';
-            },
-
-            onInit: function(swiper){
-                mySlides='';
-                for(var i = 0;i<historyList.length;i++){
-                    swiper.appendSlide('<div class="swiper-slide slide'+i+'"><span class="detail">'+historyList[i]['detail']+'</span><span class="date">'+historyList[i]['date']+'</span></div>');
-                    swiper.slides[i].style.transform='translate3d(' + (-i)*swiper.width + 'px, 0px, 0px)';
-                }
-                swiper.slideTo(3);
-            },
-            onSlideChangeStart: function(swiper){
-                detailPrev=swiper.slides[swiper.previousIndex].querySelector('.detail');
-                datePrev=swiper.slides[swiper.previousIndex].querySelector('.date');
-                detailPrev.offsetHeight;datePrev.offsetHeight;
-                swiper.slides[swiper.previousIndex].style.zIndex=1;
-                detailPrev.style.opacity=datePrev.style.opacity=0;
-                detailPrev.style.transform=datePrev.style.transform='translate3d(0px, 0px, 0px)';
-
-                detailActive=swiper.slides[swiper.activeIndex].querySelector('.detail');
-                dateActive=swiper.slides[swiper.activeIndex].querySelector('.date')
-                detailActive.offsetHeight;dateActive.offsetHeight;
-                swiper.slides[swiper.activeIndex].style.zIndex=999;
-                detailActive.style.opacity=dateActive.style.opacity=1;
-                detailActive.style.transform='translate3d(0px, 10px, 0px)';
-                dateActive.style.transform='translate3d(0px, -10px, 0px)';
-
-                moveDay1 = new Date(historyList[swiper.activeIndex]['date'].replace(/-/g, "/"));
-                moveDay2 = new Date(historyList[0]['date'].replace(/-/g, "/"));
-                moveTime=moveDay1-moveDay2
-                moveDistance=parseInt( moveTime/ (1000 * 60 * 60 * 24))*modifier+10*swiper.activeIndex;
-                move=swiper.width/2-5-moveDistance;
-
-                swiper.paginationContainer[0].style.left=move+'px';
-
-            },
-        });
-    </script>
-                <!--ÎÄ°¸begin-->
-        <div class="direction ">
-            <div class="container animate">
-                <div class="row">
-                    <div class="col-md-4 dir-left">
-                        <h2 id="h-left" class="dic-h-left">Î¢ &nbsp;·ç &nbsp;Ò× &nbsp;ÔÆ</h2>
-                        <h2 class="dic-h-center">&</h2>
-                        <h2 id="h-right" class="dic-h-right">Î¢ &nbsp;·ç &nbsp;Ó³ &nbsp;Ïñ</h2>
-
-                    </div>
-                    <div class="col-md-6 col-md-offset-2">
-                        <p class="dir-p">
-                            --ÎÒÃÇ´æÔÚµÄÒâÒå
-                            ²»ÔÚÓÚ¸øÄãÌá¹©¸ü¶à´ğ°¸
-                         </p>
-                        <p class="dir-p text-right pad-top20">¶øÔÚÓÚÈÃÄã
-                            ±ÜÃâÖ±ÃæÎÊÌâ--
-                        </p>
-                    </div>
-                </div>
-            </div>         <!-- Ó³Ïñ½éÉÜ begin -->
-            <div class="work  pad-bot100">
-                <div class="container animate">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="mar-auto">
-                                <div class="photo ph-right ">
-                                    <img src="img/photo.jpg" alt="">
-                                    <img src="img/cut.jpg" alt="" class="hover">
-                                    <div class="cover">
-
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2">
+                                        <div class="slide-text slide_style_center">
+                                            <h1 class="text-title" data-animation="animated zoomInRight">å¾®é£æ˜“äº‘family
+                                             </h1>
+                                            <p class="text-title m-top-10" data-animation="animated fadeInLeft">æˆ‘ä»¬å›¢ç»“å‹çˆ±ï¼Œæ´»æ³¼åˆå¯çˆ± </p>
+										</div>
                                     </div>
                                 </div>
-                                <div class="photo ">
-                                    <img src="img/cut.jpg" alt="">
+                            </div>
+                        </div>
+                        <!-- End of Slide -->
+
+                        <!-- Second Slide -->
+                        <div class="item">
+                            <img src="img/IMG_01.jpg"  alt="SeoPress Slider" />
+                            <div class="bs-slider-overlay"></div>
+                            <div class="container">
+                                <div class="row">
+                                    <!-- Slide Text Layer -->
+                                    <div class="col-md-6">
+                                      <div class="slide-text slide_style_left">
+                                            <h1 class="text-title" data-animation="animated fadeInRight">æŠ€æœ¯éƒ¨</h1>
+                                        <p class="text-title m-top-10" data-animation="animated zoomInLeft">æˆ‘ä»¬æ˜¯æŠ€æœ¯æ”¯æŒéƒ¨ï¼Œæˆ‘ä»¬é¢œå€¼åœ¨çº¿ï¼Œ
+										            æˆ‘ä»¬çƒ­çˆ±æ˜“ç­ï¼Œæœªæ¥å°†ä¸ä½ ä»¬ä¸€åŒå‰è¡Œï¼Œæˆ‘ä»¬ä¸€èµ·å»åŠªåŠ›ï¼Œä¸€èµ·å»å¥‹æ–—ï¼Œä¸€èµ·å»å‘å±•ã€‚
+                                          </p>
+									  </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Slide -->
+
+                        <!-- Third Slide -->
+                        <div class="item">
+                            <img src="img/IMG_01.jpg" alt="SeoPress Slider" />
+                            <div class="bs-slider-overlay"></div>
+                            <div class="container">
+                                <div class="row">
+                                    <!-- Slide Text Layer -->
+                                    <div class="col-md-6">
+                                        <div class="slide-text slide_style_left">
+                                            <h1 class="text-title" data-animation="animated fadeInDown">å¼€å‘éƒ¨</h1>
+                                            <p class="text-title m-top-10" data-animation="animated fadeInLeft">æˆ‘ä»¬æ˜¯å¼€å‘éƒ¨ï¼Œæˆ‘ä»¬çš„å°å“¥å“¥å¸…æ°”æ½‡æ´’ï¼Œå°å§å§è²Œç¾å¦‚èŠ±ï¼Œæˆ‘ä»¬æ“…é•¿è½»åº”ç”¨å¼€å‘ã€‚
+                                            </p>
+
+                                      
+                                      </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="mar-auto ph-sed">
-                                <div class="photo ">
-                                    <img src="img/desin.jpg" alt="">
-                                </div>
+                        <!-- Fourth Slide -->
+                        <div class="item">
+                            <img src="img/IMG_01.jpg"  alt="SeoPress Slider" />
+                            <div class="bs-slider-overlay"></div>
+                            <div class="container">
+                                <div class="row">
+                                    <!-- Slide Text Layer -->
+                                    <div class="col-md-6">
+                                        <div class="slide-text slide_style_left">
+                                            <h1 class="text-title" data-animation="animated fadeInLeft"> <br />
+                                                ç½‘ç»œéƒ¨</h1>
+                                            <p class="text-title m-top-10" data-animation="animated fadeInRight">æˆ‘ä»¬ç½‘ç»œéƒ¨æ ¹æ®éœ€æ±‚å¼€å‘å»ºè®¾å„ç±»ç½‘ç«™ï¼Œä»¥åŠç½‘ç«™çš„æ—¥å¸¸è¿ç»´å·¥ä½œç¡®ä¿ç½‘ç«™æ­£å¸¸è¿è¡Œï¼Œæƒ³å­¦ä¹ ï¼Œæƒ³å¿«ä¹ï¼Œå°±èµ¶ç´§åŠ å…¥ç½‘ç»œéƒ¨
+                                            </p>
 
-                                <div class="photo ph-left">
-                                    <img src="img/live.jpg" alt="">
+                                      </div>
+                                    </div>
+
                                 </div>
                             </div>
+                        </div>
+                        <!-- End of Slide -->
+                    </div><!-- End of Wrapper For Slides -->
+             
+                    <!-- carousel indicators -->
+                    <div class="carousel-indicators text-center">
+                        <div data-target="#bootstrap-touch-slider" data-slide-to="0" class="active indicatior-item text-center bg-black"> 
+                            <div class="slid-number">1</div>
+                            <div class="sp-thumbnail-title text-white m-top-10">
+                              <h4>å¾®é£æ˜“äº‘</h4>
+                            </div>
+                            <div class="hidden-sm carousel-indicators-description bg-info text-white m-top-20">
+                              <p class="bg-info">
+								ä¸»è¦ä¸šåŠ¡ï¼šå¹³å°ç ”å‘ä»¥åŠæŠ€æœ¯æ”¯æŒ
+
+								å¹³è¡Œéƒ¨é—¨ï¼šç½‘ç»œéƒ¨ã€å¼€å‘éƒ¨ã€æŠ€æœ¯éƒ¨ã€‚
+
+						  	</p>
+                            </div>
+                        </div>
+
+                        <div data-target="#bootstrap-touch-slider" data-slide-to="1" class="indicatior-item text-center bg-black">
+                            <div class="slid-number">2</div>
+                            <div class="sp-thumbnail-title text-white m-top-10">
+                              <h4>æŠ€æœ¯éƒ¨</h4>
+                            </div>
+                            <div class="hidden-sm carousel-indicators-description bg-info text-white m-top-20">
+                                <p>å·¥ä½œç«™åœºåœ°çš„è½¯ç¡¬ä»¶ç»´æŠ¤å’Œè®¾å¤‡ä½¿ç”¨
+									ä½¿ç”¨æ ¡æœºæ„å·å¤„ç†æ˜“ç­å¸å·é—®é¢˜ï¼Œæä¾›æ˜“ç­å®¢æœæœåŠ¡
+									</p>
+                            </div>
+                        </div>
+
+                        <div data-target="#bootstrap-touch-slider" data-slide-to="2" class="indicatior-item text-center bg-black">
+                            <div class="slid-number">3</div>
+                            <div class="sp-thumbnail-title text-white m-top-10">
+                              <h4>å¼€å‘éƒ¨</h4>
+                            </div>
+                            <div class="hidden-sm carousel-indicators-description bg-info text-white m-top-20">
+                                <p>
+									å¿«æ­è½»åº”ç”¨åˆ¶ä½œ
+									H5åˆ¶ä½œï¼Œç½‘ç«™UIè®¾è®¡å¯¹äºŒçº§å­¦é™¢ä»¥åŠè¿›è¡Œè½»åº”ç”¨å¿«æ­åˆ¶ä½œåŸ¹è®­</p>
+                            </div>
+                        </div>
+
+                        <div data-target="#bootstrap-touch-slider" data-slide-to="3" class="indicatior-item text-center bg-black">
+                            <div class="slid-number">4</div>
+                            <div class="sp-thumbnail-title text-white m-top-10">
+                              <h4>ç½‘ç»œéƒ¨</h4>
+                            </div>
+                            <div class="hidden-sm carousel-indicators-description bg-info text-white m-top-20">
+                                <p>æ˜“ç­APIå¼€å‘è½»åº”ç”¨
+									æ›´æ–°å¹¿è¥¿å¤§å­¦ç”Ÿåœ¨çº¿ç½‘ç«™
+									æ›´æ–°åœ¨çº¿è§†é¢‘
+									å¯¹å¤–æ‰¿æ¥ç½‘ç«™å¼€å‘ç­‰ä¸šåŠ¡</p>
+                            </div>
+
                         </div>
                     </div>
-                </div>
-            </div>
-            <!--Ó³Ïñ½éÉÜend-->
-        </div>
-                <!--ÎÄ°¸end-->
+                </div> <!-- End  bootstrap-touch-slider Slider -->
 
+            </section><!-- End off homev1 section -->
+ 				</div>
+		 <div class="dir-3">
+            <!--å„éƒ¨é—¨ä»‹ç»-->
+            <section id="allies" class="allies sections">
+                <div class="container">
+                  <div class="row">
 
-        <!--Ò×ÔÆ½éÉÜ begin-->
-        <div class="direction2">
-            <div class="container animate">
+                        <div class="main-allies">
+                            <div class="col-md-5">
+                                <div class="allies-img">
+                                    <img src="img/img03.jpg" alt="" />
+                                </div>
+                            </div>
 
-                <div class="box col-md-7">
+                            <div class="col-md-7">
+                              <div class="allies-content sm-m-top-50">
+                                <div class="head-title">
+                                        <h2 class="dir-p">å·¥ä½œå†…å®¹&æˆæœ</h2>
+                                        <h5 class="text-black m-top-30">â€œæˆ‘ä»¬å¾®é£æ˜“äº‘åšçš„ä¸»è¦æ˜¯å¹³å°ç ”å‘ä¸æŠ€æœ¯æ”¯æŒ.â€</h5>
+                                        <div class="separator2"><span></span><span></span><span></span></div>
 
-                    <div class="lineF">
-                        <div class="boxF box1">
-                            <div class="boxS">
-                                <div class="boxT" id="c1">
-                                    <img src="img/support.jpg" alt="">
+                                    </div>
+                                    <ul class="text-black m-top-40">
+                                      <li><i class="fa fa-check"></i>webç ”å‘ï¼šWebå‰ç«¯ï¼Œä¹Ÿå°±æ˜¯åœ¨Webåº”ç”¨ä¸­ç”¨æˆ·å¯ä»¥çœ‹å¾—è§ç¢°å¾—ç€çš„ä¸œè¥¿ã€‚åŒ…æ‹¬Webé¡µé¢çš„ç»“æ„ã€Webçš„å¤–è§‚è§†è§‰è¡¨ç°ä»¥åŠWebå±‚é¢çš„äº¤äº’å®ç°ã€‚æˆ‘ä»¬ç½‘ç»œéƒ¨èƒ½æ ¹æ®éœ€æ±‚å¼€å‘å»ºè®¾å„ç±»ç½‘ç«™ï¼Œç±»ä¼¼ä¹¦é¦™æ ¡å›­ï¼Œå¾®é£æ˜“äº‘å®˜ç½‘ç­‰å¹³å°çš„å»ºè®¾ã€‚</li>
+                                      <li><i class="fa fa-check"></i>h5çš„åˆ¶ä½œï¼šH5æ˜¯ä¸€ç³»åˆ—åˆ¶ä½œç½‘é¡µäº’åŠ¨æ•ˆæœçš„æŠ€æœ¯é›†åˆï¼Œå³H5å°±æ˜¯ç§»åŠ¨ç«¯çš„webé¡µé¢ã€‚è¿™ä¹Ÿæ˜¯æˆ‘ä»¬å¼€å‘éƒ¨çš„ä¸»è¦å·¥ä½œï¼Œæˆ‘ä»¬æ‡‚æŠ€æœ¯ï¼Œæ‡‚è®¾è®¡ï¼Œèƒ½è½»æ¾åˆ¶ä½œæœ‰åˆ›æ„çš„H5ã€‚</li>
+									  <li><i class="fa fa-check"></i>ç½‘ç«™è¿è¥ï¼šç½‘ç«™çš„æ—¥å¸¸è¿ç»´å·¥ä½œç¡®ä¿ç½‘ç«™æ­£å¸¸è¿è¡Œï¼Œè®¿é—®é¡ºç•…ï¼›æˆ‘ä»¬ç½‘ç»œéƒ¨ä¸»è¦å¯¹å¤§å­¦ç”Ÿåœ¨çº¿è¿›è¡Œç½‘ç«™è¿è¥ï¼Œæˆ‘ä»¬æŒæ¡ç€ç½‘ç«™è¿è¡Œã€è®¿é—®æƒ…å†µï¼Œä¿è¯å„ç±»è¿è¡Œæ•°æ®è®°å½•çš„æ­£ç¡®æ€§å’Œæ—¶æ•ˆæ€§ã€‚</li>
+                                        <li><i class="fa fa-check"></i>ç¡¬ä»¶ç»´æŠ¤ï¼šä¸»æœºã€å¹¿å‘Šæœºã€æ‰“å°æœºâ€¦â€¦ä½ ä»¬åªéœ€è¦äº†è§£ï¼šè¿™ä¸€é¡¹æ˜¯æˆ‘ä»¬å¾®é£æ˜“äº‘æ¯ä¸€ä½æˆå‘˜å¿…å¤‡çš„æŠ€æœ¯æ‰‹æ®µï¼</li>
+										<li><i class="fa fa-check"></i>å¯¹æ¥æ˜“ç­API: æˆ‘ä»¬èƒ½å°†æ˜“ç­æ¥å£æ¥å…¥æˆ‘ä»¬å¼€å‘çš„ç½‘ç«™ï¼Œæ›´å¥½çš„è´´è¿‘å¹¿å¤§æ˜“ç­ç”¨æˆ·ã€‚</li>
+                                    </ul>
+
+                                    <a href="" class="btn btn-primary btn-round m-top-30">æŸ¥çœ‹æ›´å¤š</a>
+
                                 </div>
                             </div>
                         </div>
-                        <div class="boxF">
-                            <div class="boxS">
-                                <div class="boxT" id="c2">
-                                    <img src="img/web.jpg" alt="">
-                                </div>
-                            </div>
+
+                    </div><!-- End off row -->
+                </div><!--End off container -->
+				
+            </section><!-- End off Allies Section-->
+ </div>
+
+
+
+
+            <!--è§†é¢‘æ•™ç¨‹ -->
+			<div class="dir-3">
+            <section id="studies" class="studies sections">
+                <div class="container">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="head-title text-center">
+                          <h2 class="text-black">ç»å…¸æ•™ç¨‹</h2>
+                            <p class="text-black m-top-10">å¿«é€Ÿå­¦ä¼šwebå¼€å‘ï¼Œh5ï¼Œç¡¬ä»¶ç»´æŠ¤ï¼Œå„è·¯å¤§ä½¬å¸¦ä½ é£~</p>
+                          </div>
                         </div>
-                        <div class="boxF">
-                            <div class="boxS">
-                                <div class="boxT" id="c3">
-                                    <img src="img/live.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="lineS">
-                        <div class="boxF">
-                            <div class="boxS">
-                                <div class="boxT" id="c4" style="background-image: url(img/desin.jpg);">
-                                    <img src="img/desin.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="boxF">
-                            <div class="boxS">
-                                <div class="boxT" id="c5" style="background-image: url(img/photo.jpg);">
-                                    <img src="img/photo.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
 
+                        <div class="col-md-12">
+                            <div class="main-studies m-top-50">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="studies-item">
+                                            <div class="studies-feature border">
+                                                <img class="img-rounded" src="img/img01.png" alt="" />
+                                                <div class="studies-overlay img-rounded"><a href=""><span class="icon icon-arrows-2 hvr-hang"></span></a></div>
+                                                <div class="custom-hover"></div>
+                                          </div>
+                                            <div class="studies-conten m-top-30">
+                                                <h4><a href="">æ ‡é¢˜</a></h4>
+                                                <p class="m-top-10">å†…å®¹: ç½‘é¡µåŸºç¡€æ•™ç¨‹ï¼Œbalalalala</p>
+                                            </div>
+                                      </div>
+                                  </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="studies-item xs-m-top-35">
+                                            <div class="studies-feature border">
+                                                 <img class="img-rounded" src="img/img01.png" alt="" />
+                                                <div class="studies-overlay img-rounded"><a href=""><span class="icon icon-arrows-2 hvr-hang"></span></a></div>
+                                            </div>
+                                            <div class="studies-conten m-top-30">
+                                                <h4><a href="">æ ‡é¢˜</a></h4>
+                                                <p class="m-top-10">å†…å®¹: ç½‘é¡µåŸºç¡€æ•™ç¨‹ï¼Œbalalalala</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="studies-item sm-m-top-35">
+                                            <div class="studies-feature border">
+                                                <img class="img-rounded" src="img/img01.png" alt="" />
+                                                <div class="studies-overlay img-rounded"><a href=""><span class="icon icon-arrows-2 hvr-hang"></span></a></div>
+                                            </div>
+                                            <div class="studies-conten m-top-30">
+                                                <h4><a href="">æ ‡é¢˜</a></h4>
+                                                <p class="m-top-10">å†…å®¹: ç½‘é¡µåŸºç¡€æ•™ç¨‹ï¼Œbalalalala</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="studies-item m-top-35">
+                                            <div class="studies-feature border">
+                                                 <img class="img-rounded" src="img/img01.png" alt="" />
+                                                <div class="studies-overlay img-rounded"><a href=""><span class="icon icon-arrows-2 hvr-hang"></span></a></div>
+                                            </div>
+                                            <div class="studies-conten m-top-30">
+                                                <h4><a href="">æ ‡é¢˜</a></h4>
+                                                <p class="m-top-10">å†…å®¹: ç½‘é¡µåŸºç¡€æ•™ç¨‹ï¼Œbalalalala</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="studies-item m-top-35">
+                                            <div class="studies-feature border">
+                                                 <img class="img-rounded" src="img/img01.png" alt="" />
+                                                <div class="studies-overlay img-rounded">
+                                                    <a href="">
+                                                        <span class="icon icon-arrows-2 hvr-hang"></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="studies-conten m-top-30">
+                                                <h4><a href="">æ ‡é¢˜</a></h4>
+                                                <p class="m-top-10">å†…å®¹: ç½‘é¡µåŸºç¡€æ•™ç¨‹ï¼Œbalalalala</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="studies-item m-top-35">
 
-                <div class="col-md-7 dir-pic">
-                    <img id="hover" src="img/bgg.jpg" alt="">
-                </div>
-                <div class="col-md-5">
-                    <div class="dir2-mark">
-                        <h1></h1>
-                        <h2 id="p1">WEBÑĞ·¢</h2>
-                        <h3 id="p2">H5ÖÆ×÷</h3>
-                        <h4 id="p3">¼¼ÊõÖ§³Ö</h4>
-                        <h5 id="p4">Ó²¼şÎ¬»¤</h5>
-                        <h3 id="p5">ÍÅ¶Ó½¨Éè</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    <!--Ò×ÔÆ½éÉÜ end-->
-
-    <!--ÈıÁĞ½éÉÜ-->
+                                            <div class="studies-feature border">
+                                                <img class="img-rounded" src="img/img01.png" alt="" />
+                                                <div class="studies-overlay img-rounded">
+                                                    <a href=""><span class="icon icon-arrows-2 hvr-hang"></span></a>
+                                                </div>
+                                            </div>
+                                            <div class="studies-conten m-top-30">
+                                                <h4><a href="">æ ‡é¢˜</a></h4>
+                                                <p class="m-top-10">å†…å®¹: ç½‘é¡µåŸºç¡€æ•™ç¨‹ï¼Œbalalalala</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                              </div><!-- End off row -->
 
 
+                          </div><!-- End off main studies -->
+                      </div><!-- End off col-md-12 -->
 
-
-
-
-
-</main>
+                    </div><!-- End off row -->
+                </div><!-- End off container -->
+          </section><!-- End off è§†é¢‘æ•™ç¨‹-->
+		</div>
 
     <div class="retop" id="re-top">
         <a href="#"><i class="glyphicon glyphicon-menu-up"></i></a>
@@ -374,174 +406,63 @@
         <div class="container">
             <div class="ft-pad">
                 <div class="row">
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="ft-rp-p text-left">
-                            <h2 class="ft-mar-bot">Î¢·çÒ×ÔÆ</h2>
+                    <div class="col-md-4 col-sm-6 col-xs-12 ft-mar-top">
+                        <div class="ft-rp-p text-center">
+
                             <div class="ft-p">
-                                <p>ÓÑÇéÁ´½Ó£º</p>
-                                <a href="#"><p>¹ãÎ÷´óÑ§ÉúÔÚÏß</p></a>
-                                <a href="#"><p>Ò×°à</p></a>
+                                <p>å‹æƒ…é“¾æ¥ï¼š</p>
+                                <a href="#"><p>å¹¿è¥¿å¤§å­¦ç”Ÿåœ¨çº¿</p></a>
+                                <a href="#"><p>æ˜“ç­</p></a>
                             </div>
                         </div>
                     </div>
-
-
-                    <div class="col-md-6 col-md-offset-2 col-sm-6 col-xs-12">
-                        <div class="text-right ft-mar-top ft-mar-bot">
+                    <div class="col-md-4">
+                        <canvas id="canvas" width="180" height="180" ></canvas>
+                    </div>
+                    <div class="col-md-4  col-sm-6 col-xs-12">
+                        <div class="text-center ft-mar-top ft-mar-bot">
                             <ul class="ft-in-bl ft-p2 ft-mar-bot">
-                                <li><a href="yiyun.html">Î¢·çÒ×ÔÆ</a></li>
-                                <li><a href="yiyun.html">Î¢·çÓ³Ïñ</a></li>
-                                <li><a href="wfkt">Î¢·ç¿ÎÌÃ</a></li>
-                                <li><a href="#">Î¢·çFamily</a></li>
+                                <li><a href="yiyun.html">å¾®é£æ˜“äº‘</a></li>
+                                <li><a href="yingxiang.html">å¾®é£æ˜ åƒ</a></li>
+                                <li><a href="wfkt/index.php">å¾®é£è¯¾å ‚</a></li>
+                                <li><a href="wfxl/index.html">å¾®é£å¿ƒç†</a></li>
+                                <li><a href="#">å¾®é£Family</a></li>
                             </ul>
                         </div>
-                        <canvas id="canvas" width="250" height="250" ></canvas>
+
+                    </div>
+                </div>
+                <div class="row ft-mar-top">
+                    <div class="mar-auto text-center font_white">
+                        Â©2018-2020 æ¡‚æ—ç”µå­ç§‘æŠ€å¤§å­¦æ˜“ç­ç ”ç©¶å‘å±•ä¸­å¿ƒ
+                    </div>
+                    <div class="mar-auto text-center font_white">
+                        å¾®é£æ˜“äº‘å·¥ä½œå®¤
                     </div>
                 </div>
             </div>
         </div>
     </div>
 <!--footer end-->
-</body>
-<script>
-
-    document.getElementById('c1').onmouseover = function(){
-        document.getElementById('p1').style.color = "#10FBFE";
-        document.getElementById('p1').style.textShadow = " 1px 2px 3px #10FBFE ";
-    }
-
-    document.getElementById('c1').onmouseout = function(){
-        document.getElementById('p1').style.color = "#6AE7FF";
-        document.getElementById('p1').style.textShadow = "none";
-    }
 
 
-
-    document.getElementById('c2').onmouseover = function(){
-        document.getElementById('p2').style.color = "#10FBFE";
-        document.getElementById('p2').style.textShadow = " 1px 2px 3px #10FBFE ";
-    }
-
-    document.getElementById('c2').onmouseout = function(){
-        document.getElementById('p2').style.color = "#6AE7FF";
-        document.getElementById('p2').style.textShadow = "none";
-    }
+ 
 
 
+        <!-- JS includes -->
+        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.js"></script>
 
-    document.getElementById('c3').onmouseover = function(){
-        document.getElementById('p3').style.color = "#10FBFE";
-        document.getElementById('p3').style.textShadow = " 1px 2px 3px #10FBFE ";
-    }
-
-    document.getElementById('c3').onmouseout = function(){
-        document.getElementById('p3').style.color = "#6AE7FF";
-        document.getElementById('p3').style.textShadow = "none";
-    }
-
+        <script src="assets/js/jquery.magnific-popup.js"></script>
+        <script src="assets/js/jquery.easing.1.3.js"></script>
+        <script src="assets/js/jquery.touchSwipe.min.js"></script>
+        <script src="assets/js/bootsnav.js"></script>
+        <script src="assets/js/jquery.formchimp.js"></script>
 
 
-    document.getElementById('c4').onmouseover = function(){
-        document.getElementById('p4').style.color = "#10FBFE";
-        document.getElementById('p4').style.textShadow = " 1px 2px 3px #10FBFE ";
-    }
-
-    document.getElementById('c4').onmouseout = function(){
-        document.getElementById('p4').style.color = "#6AE7FF";
-        document.getElementById('p4').style.textShadow = "none";
-    }
-
-
-    document.getElementById('c5').onmouseover = function(){
-        document.getElementById('p5').style.color = "#10FBFE";
-        document.getElementById('p5').style.textShadow = " 1px 2px 3px #10FBFE ";
-    }
-
-    document.getElementById('c5').onmouseout = function(){
-        document.getElementById('p5').style.color = "#6AE7FF";
-        document.getElementById('p5').style.textShadow = "none";
-    }
-
-
-
-</script>
-<script>
-    $("#re-top").hide();
-
-    $(document).scroll(function () {
-        var $scrollTop = document.documentElement.scrollTop;
-        if($scrollTop>=100){
-            $("#re-top").fadeIn();
-        }
-        else{
-            $("#re-top").fadeOut();
-        }
-
-    });
-
-    $("#re-top a").on("click",function () {
-        $('html').animate(
-            {
-                scrollTop:0
-            }, 1000);
-    });
-
-    $("#fam").hide();
-    $("#onmouse").hover(function () {
-        $("#fam").fadeIn()},
-            function () {
-            $("#fam").fadeOut();
-
-            }
-
-    )
-
-
-    function auto() {
-       var height = document.body.clientHeight;
-       var heights = height*0.8;
-       var wid = document.body.clientWidth;
-       var widone = document.getElementById('box0').offsetWidth;
-       var widones = widone/2;
-       var widtwo = document.getElementById('box1').offsetWidth;
-       var widtwos = widtwo/2;
-       var widthree = document.getElementById('box2').offsetWidth;
-       var widthrees = widthree/2;
-       var widfour = document.getElementById('meta0').offsetWidth;
-       var widfours = widfour/2;
-       var widfive = document.getElementById('meta1').offsetWidth;
-       var widfives = widfive/2;
-       var widsix = document.getElementById('meta2').offsetWidth;
-       var widsixs = widsix/2;
-
-
-       if (wid < 600) {
-           document.getElementById('h-left').innerHTML = 'Î¢·çÒ×ÔÆ';
-           document.getElementById('h-right').innerHTML = 'Î¢·çÓ³Ïñ';
-           document.getElementById('phone1').src = ('img/phone1.png');
-           document.getElementById('box0').style.marginLeft = '-' + widones + 'px';
-           document.getElementById('box1').style.marginLeft = '-' + widtwos + 'px';
-           document.getElementById('box2').style.marginLeft = '-' + widthrees + 'px';
-           document.getElementById('meta0').style.marginLeft = '-' +widfours + 'px';
-           document.getElementById('meta1').style.marginLeft = '-' +widfives + 'px';
-           document.getElementById('meta2').style.marginLeft = '-' +widsixs + 'px';
-           document.getElementById('remove').classList.remove('container-full-height');
-           document.getElementById('remove').style.height = heights + 'px';
-
-
-
-       }
-       if(height > 500 && height < 900 )
-       {
-           document.getElementById('box0').style.height = "500px";
-           document.getElementById('box1').style.height = "500px";
-           document.getElementById('box2').style.height = "500px";
-           document.getElementById('p_1').style.fontSize = '1.3em';
-           document.getElementById('p_2').style.fontSize = '1.3em';
-           document.getElementById('p_3').style.fontSize = '1.3em';
-       }
-   }
-   setInterval("auto()",100);
-</script>
-<script  src="js/index.js"></script>
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script  src="js/index.js"></script>
+    </body>
 </html>
+

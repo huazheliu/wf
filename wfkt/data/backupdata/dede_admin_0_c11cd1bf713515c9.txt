@@ -1,0 +1,1 @@
+INSERT INTO `dede_admin` VALUES('1','10','wfweb','4f63a5a9f5acce5389d7','微风易云工作室','','','','1554621438','0.0.0.0');

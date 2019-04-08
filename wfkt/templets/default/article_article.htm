@@ -9,6 +9,30 @@
     <script src="{dede:global.cfg_templets_skin/}/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/medile.css">
     <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/wordclass2.css">
+    <style>
+        .ti_tle
+        {
+            text-align: center;
+            font-size:38px;
+            font-weight: 500;
+        }
+        .time
+        {
+            margin: 20px auto;
+            width: 1140px;
+            color: #b8b8b8;
+            text-align: center;
+
+        }
+        .content
+        {
+            margin-top: 50px;
+        }
+        .foot
+        {
+            text-align: right;
+        }
+    </style>
 </head>
 <body>
 <!--导航栏 begin-->
@@ -19,12 +43,12 @@
 <!--导航栏 ending-->
 
 <div class="container">
-    <div class="title">{dede:field name="title"/ }</div>
-    <br>
-    文章来源: {dede:field name='source'/}&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp作者:{dede:field name='writer'/}
+    <div class="ti_tle">{dede:field name="title"/}</div>
+    <div class="time">发布时间：{dede:field name='pubdate' function='GetDateTimeMk(@me)'/}&nbsp&nbsp&nbsp&nbsp&nbsp作者:{dede:field name='writer'/}</div>
     <div class="content">{dede:field name='body'/}</div>
-<hr>
-(责任编辑：{dede:adminname/})
+
+
+    <p class="foot">(责任编辑：{dede:adminname/})</p>
 </div>
 
 <div class="footer">

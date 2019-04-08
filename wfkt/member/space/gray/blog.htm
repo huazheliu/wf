@@ -30,7 +30,7 @@
 <!--begin comment-->
 <div class="comment bb" style="padding-left:6px;">
 <?php if (count($msgs)>0)  { ?>
-<h5 id="cdisplay" style="display:;">一共有 <span id="sums"><?php echo count($msgs);?></span> 条评论</h5>
+<h5 id="cdisplay" style="display:block;">一共有 <span id="sums"><?php echo count($msgs);?></span> 条评论</h5>
 <?php
 //原有评论（取其前50条）
 foreach ($msgs as $msg)
@@ -76,7 +76,7 @@ foreach ($msgs as $msg)
 		<input type="hidden" name="comtype" value="comments">
 		<input type="hidden" name="aid" value="<?php echo $aid; ?>" />
 		<input type="hidden" name="isconfirm" value="yes" />
-		<input name="cmtuser" type="hidden" value="{dede:var.uname /}">{dede:var.uname /}：
+			<input name="cmtuser" type="hidden" value="{dede:var.uname /}">{dede:var.uname /}：</form>
 	</div>
 	<div>
 		<textarea class="ip" id="cmtcontent" name="msg" style="width:90%;height:8em" ></textarea>

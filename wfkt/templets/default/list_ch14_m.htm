@@ -9,6 +9,39 @@
     <link href="{dede:global.cfg_templets_skin/}/css/medile.css" rel='stylesheet' type='text/css' />
     <script  src="dede:global.cfg_templets_skin/}/js/jquery.js"></script>
     <script src="dede:global.cfg_templets_skin/}/js/bootstrap.min.js"></script>
+    <style>
+        .img_radius
+        {
+            border-radius: 10px;
+        }
+        .container
+        {
+            width:1440px ;!important;
+        }
+        .in_bl
+        {
+            display: inline-block;
+        }
+        .mar_right_bot
+        {
+            margin: 0 20px 40px 0 ;
+        }
+        .mar_left
+        {
+            margin-left:80px;
+        }
+        li h6
+        {
+            margin-top: 10px;
+            text-align: center;
+            font-size: 18px;
+        }
+        .mar_right_bot p
+        {
+            text-align: center;
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body ondragstart="return false">
 
@@ -24,9 +57,9 @@
         </ul>
         <div id="myTabContent" class="tab-content">
             <div role="tabpanel" class="tab-pane fade active in" id="home" aria-labelledby="home-tab">
-                <ul class="col-md-2 w3l-movie-gride-agile">
+                <ul class="w3l-movie-gride-agile mar_left">
                     {dede:arclist limit="3" typeid="3" orderby="id" orderway="desc"}
-                    <li>
+                    <li class="in_bl mar_right_bot">
                         <a href="[field:arcurl/]" class="hvr-shutter-out-horizontal">
                             <img src="[field:litpic/]" title="xxx-name" class="img-responsive" alt=" " />
                             <div class="w3l-action-icon"><i class="glyphicon glyphicon-play-circle" aria-hidden="true"></i></div>
@@ -34,12 +67,9 @@
                         <div class="wenzi">
                             <div class="w3l-movie-text">
                                 <h6><a href="[field:arcurl/]">[field:title/]</a></h6>
-                            </div>
-                            <div class="mid-2">
                                 <p>[field:pubdate function="GetDateTimeMK(@me)"/]</p>
                             </div>
                         </div>
-                        <div class="ribben"><p>NEW</p></div>
                     </li>
                     {/dede:arclist}
                 </ul>

@@ -1,0 +1,7 @@
+INSERT INTO `dede_arctiny` VALUES('1','1','0','-2','1','1554516391','1554516111','1');
+INSERT INTO `dede_arctiny` VALUES('2','1','0','0','1','1554517365','1554518401','1');
+INSERT INTO `dede_arctiny` VALUES('3','2','0','0','14','1554521387','1554614609','1');
+INSERT INTO `dede_arctiny` VALUES('4','2','0','0','14','1554523015','1554614544','1');
+INSERT INTO `dede_arctiny` VALUES('5','2','0','0','14','1554525516','1554614392','1');
+INSERT INTO `dede_arctiny` VALUES('6','3','0','0','14','1554611075','1554613389','1');
+INSERT INTO `dede_arctiny` VALUES('7','3','0','0','14','1554613766','1554613672','1');
